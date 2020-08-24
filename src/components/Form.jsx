@@ -10,7 +10,7 @@ class Form extends Component {
                     <input type='text' size="50" placeholder="Email" /><br />
                     <input type='text' size="50" placeholder="Phone" /><br />
                     <input type='text' size="50" placeholder="Tell us about your project" /><br />
-                    <input type='submit' /><br />
+                    <input size="50" type='submit' /><br />
                 </form>
             </div>
         );
