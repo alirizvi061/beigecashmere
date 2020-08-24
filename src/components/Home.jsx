@@ -6,7 +6,7 @@ class Home extends Component {
         return (
             <div>
                 <h1>Beige Cashmere</h1><br />
-                <p>We’re beige cashmere and we specialize in video production, video editing , and photography</p><br />
+                <h3>We’re beige cashmere and we specialize in video production, video editing , and photography</h3><br />
                 <h1>LOCATIONS</h1>
                 <div className="locations">
                     <div className="locationsDiv">

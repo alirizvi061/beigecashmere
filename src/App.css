@@ -1,12 +1,16 @@
+/* BODY */
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
 
 body, html{
+  margin: 40px;
   background: black;
   color: #E1C48A;
   text-align: center;
   font-family: 'Roboto Condensed', sans-serif;
 }
 
+/* MAIN - HOME */
 .locations{
   display: flex;
   justify-content: space-around;
@@ -19,11 +23,13 @@ body, html{
 } */
 
 .locationsPic{
-  height: 300px;
+  height: 320px;
   width: 300px;
   border-radius: 5px;
+  margin-top: 10px;
 }
 
+/*PROJECTS - HOME */
 .projectImage{
   background-color: white;
   /* width: 90%; */
@@ -31,9 +37,63 @@ body, html{
   justify-content: center;
 }
 
+/* NAV */
+
 /* .nav{
   background: #E1C48A !important;
 } */
+
+/* FORM  */
+
+.form{
+  /* border: 1px solid yellow; */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+
+@media only screen and (max-width: 600px) {
+  .form{
+    /* border: 1px solid yellow; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+input[type=text] {
+  background-color: #e1c48a;
+  color: black;
+  border-radius: 5px;
+  height: 35px;
+  margin-bottom: 5px;
+}
+
+input[type=submit] {
+  background-color: #e1c48a;
+  display: flex;
+  align-items: flex-start;
+  height: 30px;
+  width: 60px;
+  border-radius: 5px;
+}
+
+input[type=submit]:hover {
+  background-color: #e2b354;
+  cursor: pointer;
+}
+
+/* SOCIAL ICONS */
+
+.socialIcon{
+  border-radius: 4px;
+  /* padding: 8px; */
+  /* background-color: #e1c48a; */
+  border-color: #e1c48a;
+  margin: 7px;
+  margin-bottom: 0;
+}
 
 /* Footer CSS */
 .footer{
