@@ -12,8 +12,10 @@ class Home extends Component {
           editing , and photography
         </h3>
         <br />
-        <h1>LOCATIONS</h1>
-        <div className="locations" id="locationScroll">
+        <div id="locationsScroll">
+          <h1>LOCATIONS</h1>
+        </div>
+        <div className="locations">
           <div className="locationsDiv">
             <Link to="/chicago">
               <img src="Chicago.jpg" className="locationsPic" alt="Chicago" />
@@ -45,7 +47,9 @@ class Home extends Component {
             {/* <a href="/">NEW YORK</a> */}
           </div>
         </div>
-        <h1>Projects</h1>
+        <div id="projectsScroll">
+          <h1>Projects</h1>{' '}
+        </div>
         <div className="projectImage">
           Insert Projects Images Here
           {/* <img src="/" /> */}
