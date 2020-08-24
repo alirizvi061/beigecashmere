@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
 
-body, html{
+body,
+html {
   background: black;
-  color: #E1C48A;
+  color: #e1c48a;
   text-align: center;
   font-family: 'Roboto Condensed', sans-serif;
 }
 
-.locations{
+.locations {
   display: flex;
   justify-content: space-around;
   flex-direction: row;
@@ -18,30 +19,32 @@ body, html{
   background-color: white;
 } */
 
-.locationsPic{
+.locationsPic {
   height: 300px;
   width: 300px;
   border-radius: 5px;
 }
 
-.projectImage{
+.projectImage {
   background-color: white;
   /* width: 90%; */
   display: flex;
   justify-content: center;
 }
 
-/* .nav{
-  background: #E1C48A !important;
-} */
+.customNav {
+  background: #e1c48a;
+  color: black;
+}
+*/
 
 /* Footer CSS */
-.footer{
-   bottom : 15px;  
-   height : 40px;  
-   margin-top : 40px;  
-   text-align: center;  
-   vertical-align: middle; 
-   position: aboslute;
-   width:100%;
+.footer {
+  bottom: 15px;
+  height: 40px;
+  margin-top: 40px;
+  text-align: center;
+  vertical-align: middle;
+  position: aboslute;
+  width: 100%;
 }
