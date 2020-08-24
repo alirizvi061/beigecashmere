@@ -4,7 +4,7 @@ class Form extends Component {
   render() {
     return (
       <div id="formScroll" className="form">
-        <h1>REQUEST A FREE QUOTE</h1>
+        <h2>REQUEST A FREE QUOTE</h2>
         <form>
           <input type="text" size="50" placeholder="Name" />
           <br />
