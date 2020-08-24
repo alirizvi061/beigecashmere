@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+
 body, html{
   background: black;
   color: #E1C48A;
   text-align: center;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 .locations{
@@ -39,6 +42,6 @@ body, html{
    margin-top : 40px;  
    text-align: center;  
    vertical-align: middle; 
-   position: fixed;
+   position: aboslute;
    width:100%;
 }
