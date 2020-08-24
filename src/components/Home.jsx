@@ -5,6 +5,7 @@ class Home extends Component {
   render() {
     return (
       <div>
+        <br></br>
         <h1>Beige Cashmere</h1>
         <br />
         <h3 className="introText">
@@ -47,13 +48,16 @@ class Home extends Component {
             {/* <a href="/">NEW YORK</a> */}
           </div>
         </div>
+        <br></br>
         <div id="projectsScroll">
-          <h1>Projects</h1>{' '}
+          <h1>Projects</h1>
         </div>
         <div className="projectImage">
           Insert Projects Images Here
           {/* <img src="/" /> */}
         </div>
+        <br></br>
+        <br></br>
       </div>
     );
   }
