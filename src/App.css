@@ -1,8 +1,44 @@
 body, html{
   background: black;
   color: #E1C48A;
+  text-align: center;
 }
 
-.nav{
+.locations{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+/* .locationsDiv{
+  background-color: white;
+} */
+
+.locationsPic{
+  height: 300px;
+  width: 300px;
+  border-radius: 5px;
+}
+
+.projectImage{
+  background-color: white;
+  /* width: 90%; */
+  display: flex;
+  justify-content: center;
+}
+
+/* .nav{
   background: #E1C48A !important;
+} */
+
+/* Footer CSS */
+.footer{
+   bottom : 15px;  
+   height : 40px;  
+   margin-top : 40px;  
+   text-align: center;  
+   vertical-align: middle; 
+   position: fixed;
+   width:100%;
 }
