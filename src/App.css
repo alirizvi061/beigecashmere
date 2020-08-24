@@ -2,16 +2,22 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
 
-body, html{
-  margin: 40px;
+body,
+html {
   background: black;
-  color: #E1C48A;
+  color: #e1c48a;
   text-align: center;
   font-family: 'Roboto Condensed', sans-serif;
 }
 
+h1 {
+  margin: 40px;
+}
+
 /* MAIN - HOME */
-.locations{
+.locations {
+  margin: 40px;
+
   display: flex;
   justify-content: space-around;
   flex-direction: row;
@@ -22,9 +28,7 @@ body, html{
   background-color: white;
 } */
 
-
-
-.locationsPic{
+.locationsPic {
   height: 320px;
   width: 300px;
   border-radius: 5px;
@@ -32,13 +36,15 @@ body, html{
 }
 
 /*PROJECTS - HOME */
-.projectImage{
-  border: 1px solid #E1C48A;  /* width: 90%; */
+.projectImage {
+  margin: 40px;
+
+  border: 1px solid #e1c48a; /* width: 90%; */
   display: flex;
   justify-content: center;
 }
 
-.locationsPic:hover{
+.locationsPic:hover {
   cursor: pointer;
   color: black;
 }
@@ -48,30 +54,33 @@ body, html{
   display: block;
   /* width: 100%; */
   /* height: auto; */
-  transition: .5s ease;
+  transition: 0.5s ease;
   backface-visibility: hidden;
 }
 
-.text{
+.text {
   font-size: 20px;
   padding: 16px 32px;
   text-decoration: none;
   color: #e1c48a;
 }
 
-.introText{
+.introText {
   text-transform: uppercase;
 }
 /* NAV */
 
-/* .nav{
-  background: #E1C48A !important;
-} */
+.nav {
+  background: #e1c48a !important;
+  margin: 0;
+}
 
 /* FORM  */
 
-.form{
+.form {
   /* border: 1px solid yellow; */
+  margin: 40px;
+
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -79,15 +88,16 @@ body, html{
 }
 
 @media only screen and (max-width: 600px) {
-  .form{
+  .form {
     /* border: 1px solid yellow; */
+
     display: flex;
     flex-direction: column;
     align-items: center;
   }
 }
 
-input[type=text] {
+input[type='text'] {
   background-color: #e1c48a;
   color: black;
   border-radius: 5px;
@@ -96,7 +106,7 @@ input[type=text] {
   border: none;
 }
 
-input[type=submit] {
+input[type='submit'] {
   background-color: #e1c48a;
   display: flex;
   align-items: flex-start;
@@ -106,7 +116,7 @@ input[type=submit] {
   border: none;
 }
 
-input[type=submit]:hover {
+input[type='submit']:hover {
   background-color: #e2b354;
   cursor: pointer;
   color: white;
@@ -114,7 +124,7 @@ input[type=submit]:hover {
 
 /* SOCIAL ICONS */
 
-.socialIcon{
+.socialIcon {
   border-radius: 4px;
   /* padding: 8px; */
   /* background-color: #e1c48a; */
@@ -124,12 +134,12 @@ input[type=submit]:hover {
 }
 
 /* Footer CSS */
-.footer{
-   bottom : 15px;  
-   height : 40px;  
-   margin-top : 40px;  
-   text-align: center;  
-   vertical-align: middle; 
-   position: aboslute;
-   width:100%;
+.footer {
+  bottom: 15px;
+  height: 40px;
+  margin-top: 40px;
+  text-align: center;
+  vertical-align: middle;
+  position: aboslute;
+  width: 100%;
 }

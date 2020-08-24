@@ -3,7 +3,7 @@ import React, { Component } from "react";
 class Form extends Component {
   render() {
     return (
-      <div className='form'>
+      <div id="formScroll" className='form'>
         <h1>REQUEST A FREE QUOTE</h1>
         <form
           action='mailto:email@gmail.com'
@@ -31,7 +31,7 @@ class Form extends Component {
             name='comment'
           />
           <br />
-          <input size='50' type='submit' />
+          <input size='50' type='submit' value='Email'/>
           <br />
         </form>
       </div>
