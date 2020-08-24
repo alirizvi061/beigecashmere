@@ -4,7 +4,6 @@
 
 body,
 html {
-  margin: 40px;
   background: black;
   color: #e1c48a;
   text-align: center;
@@ -63,9 +62,9 @@ html {
 }
 /* NAV */
 
-/* .nav{
-  background: #E1C48A !important;
-} */
+.nav {
+  background: #e1c48a !important;
+}
 
 /* FORM  */
 
