@@ -12,7 +12,7 @@ class NavMenu extends Component {
           data-target=".navbar"
           data-offset="50"
           className="nav"
-          bg="dark"
+          // bg="dark"
           expand="lg"
         >
           {/* <Navbar.Brand href="/">Beige Cashmere</Navbar.Brand> */}

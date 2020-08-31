@@ -129,8 +129,12 @@ h1 {
   width: 45px;
 }
 
-.nav-link,.navbar-light, .navbar-nav, .navbar-light, .navbar-toggler-icon {
+.nav-link,.navbar-light, .navbar-nav{
   color: #e1c48a !important;
+}
+
+.navbar-toggler-icon{
+  background: #e1c48a !important;
 }
 /* FORM  */
 
