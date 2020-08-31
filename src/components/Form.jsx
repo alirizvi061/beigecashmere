@@ -4,7 +4,7 @@ class Form extends Component {
   render() {
     return (
       <div id="formScroll" className='form'>
-        <h1>REQUEST A FREE QUOTE</h1>
+        <h2>REQUEST A FREE QUOTE</h2>
         <form
           action='mailto:email@gmail.com'
           method='post'
@@ -13,25 +13,24 @@ class Form extends Component {
         >
           <input
             type='text'
-            size='50'
+            size='70'
             name='subject'
             value='Quote Request'
             hidden
           />
-          <input type='text' size='50' placeholder='Name' name='name' />
+          <input type='text' size='60' placeholder='Name' name='name' />
           <br />
-          <input type='text' size='50' placeholder='Email' name='email' />
+          <input type='text' size='60' placeholder='Email' name='email' />
           <br />
-          <input type='text' size='50' placeholder='Phone' name='phone' />
+          <input type='text' size='60' placeholder='Phone' name='phone' />
           <br />
-          <input
+          <textarea
             type='text'
-            size='50'
             placeholder='Tell us about your project'
-            name='comment'
-          />
+            name='comment'>
+          </textarea>
           <br />
-          <input size='50' type='submit' value='Email'/>
+          <input size='55' type='submit' value='Email' />
           <br />
         </form>
       </div>

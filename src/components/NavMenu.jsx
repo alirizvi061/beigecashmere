@@ -15,7 +15,8 @@ class NavMenu extends Component {
           bg="dark"
           expand="lg"
         >
-          <Navbar.Brand href="#home">Beige Cashmere</Navbar.Brand>
+          {/* <Navbar.Brand href="/">Beige Cashmere</Navbar.Brand> */}
+          <img src="logoOnly.png" alt="" className="navLogo" />
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ml-auto">
