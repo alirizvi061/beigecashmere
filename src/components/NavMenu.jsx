@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Nav, Navbar } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { Link } from 'react-router-dom';
 import '../App.css';
 
 class NavMenu extends Component {
@@ -11,12 +12,14 @@ class NavMenu extends Component {
           data-spy="scroll"
           data-target=".navbar"
           data-offset="50"
-          className="nav"
+          className="nav fixed-top"
           // bg="dark"
           expand="lg"
         >
           {/* <Navbar.Brand href="/">Beige Cashmere</Navbar.Brand> */}
-          <img src="logoOnly.png" alt="" className="navLogo" />
+          <Link to="/">
+            <img src="logoOnly.png" alt="" className="navLogo" />
+          </Link>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ml-auto">

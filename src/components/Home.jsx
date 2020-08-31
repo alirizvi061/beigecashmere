@@ -52,7 +52,9 @@ class Home extends Component {
           <img className="projectImage image" src="Home-page-projects-pic.png" alt="" />
           <div class="overlay">
             <Link to="/projects" className="locationText">
-              <div class="text">Check out our projects!</div>
+              <div class="text">
+                <h1>Check out our projects!</h1>
+              </div>
             </Link>
           </div>
         </div>

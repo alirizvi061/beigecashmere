@@ -4,6 +4,7 @@
 
 body,
 html {
+  margin: 3%;
   background: black;
   color: #e1c48a;
   text-align: center;
@@ -17,8 +18,14 @@ h1 {
 /* MAIN - HOME */
 
 .homeLogo{
-  width: 400px;
+  width: 20%;
   margin: 5%;
+}
+
+@media (max-width: 1000px) {
+  .homeLogo{
+    margin-top: 15%;
+  }
 }
 .locations {
   margin: 40px;
@@ -141,6 +148,7 @@ h1 {
 .form {
   /* border: 1px solid yellow; */
   margin: 40px;
+  margin-left: 8%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -155,7 +163,10 @@ h1 {
     flex-direction: column;
     align-items: center;
   }
+
 }
+
+
 
 input[type='text']{
   background-color: #e1c48a;
