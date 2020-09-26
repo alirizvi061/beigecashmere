@@ -23,10 +23,10 @@ class NavMenu extends Component {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ml-auto">
-              <Nav.Link href="/">Home</Nav.Link>
-              <Nav.Link href="#locationsScroll">Locations</Nav.Link>
-              <Nav.Link href="#projectsScroll">Projects</Nav.Link>
-              <Nav.Link href="#formScroll">Book Now</Nav.Link>
+              <Nav.Link href="/">HOME</Nav.Link>
+              <Nav.Link href="#locationsScroll">LOCATIONS</Nav.Link>
+              <Nav.Link href="#projectsScroll">PROJECTS</Nav.Link>
+              <Nav.Link href="#formScroll">BOOK NOW</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Navbar>

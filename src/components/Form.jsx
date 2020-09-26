@@ -18,19 +18,19 @@ class Form extends Component {
             value='Quote Request'
             hidden
           />
-          <input type='text' size='60' placeholder='Name' name='name' />
+          <input type='text' size='60' placeholder='NAME' name='name' />
           <br />
-          <input type='text' size='60' placeholder='Email' name='email' />
+          <input type='text' size='60' placeholder='EMAIL' name='email' />
           <br />
-          <input type='text' size='60' placeholder='Phone' name='phone' />
+          <input type='text' size='60' placeholder='PHONE' name='phone' />
           <br />
           <textarea
             type='text'
-            placeholder='Tell us about your project'
+            placeholder='TELL US ABOUT YOUR PROJECT'
             name='comment'>
           </textarea>
           <br />
-          <input size='55' type='submit' value='Email' />
+          <input size='55' type='submit' value='EMAIL' />
           <br />
         </form>
       </div>

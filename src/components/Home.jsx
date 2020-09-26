@@ -16,15 +16,6 @@ class Home extends Component {
         </div>
         <div className="locations">
           <div className="locationsDiv">
-            <Link to="/chicago">
-              <img src="Chicago.jpg" className="locationsPic" alt="Chicago" />
-            </Link>
-            <Link to="/chicago" className="locationText">
-              CHICAGO
-            </Link>
-            {/* <a href="/">CHICAGO</a> */}
-          </div>
-          <div className="locationsDiv">
             <Link to="/la">
               <img src="LA.jpg" className="locationsPic" alt="LA" />
             </Link>
@@ -33,6 +24,15 @@ class Home extends Component {
             </Link>
             {/* <div class="locationText">LOS ANGELES</div> */}
             {/* <a href="/">LOS ANGELES</a> */}
+          </div>
+          <div className="locationsDiv">
+            <Link to="/chicago">
+              <img src="Chicago.jpg" className="locationsPic" alt="Chicago" />
+            </Link>
+            <Link to="/chicago" className="locationText">
+              CHICAGO
+            </Link>
+            {/* <a href="/">CHICAGO</a> */}
           </div>
           <div className="locationsDiv">
             <Link to="/newyork">
@@ -45,7 +45,7 @@ class Home extends Component {
           </div>
         </div>
         <div id="projectsScroll"><br />
-          <h1>Projects</h1>
+          <h1>PROJECTS</h1>
         </div>
         <div class="container" >
           {/* <p>Check out our projects</p> */}
@@ -53,7 +53,7 @@ class Home extends Component {
           <div class="overlay">
             <Link to="/projects" className="locationText">
               <div class="text">
-                <h1>Check out our projects!</h1>
+                <h1>CHECK OUT OUR PROJECTS!</h1>
               </div>
             </Link>
           </div>
