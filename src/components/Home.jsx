@@ -24,7 +24,7 @@ class Home extends Component {
           <div class="overlay">
             <Link to="/projects" className="locationText">
               <div class="text">
-                <h1>CHECK OUT OUR PROJECTS!</h1>
+                <h1>VIEW OUR PROJECTS!</h1>
               </div>
             </Link>
           </div>

@@ -265,4 +265,35 @@ input[type='submit']:hover {
   height: 100%;
 }
 
+.commercialsDiv{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 50px;
+  /* margin-bottom: 0; */
+  /* justify-content: center; */
+  /* word-wrap: wrap; */
+}
+
+@media (max-width: 1000px) {
+  .commercialsDiv{
+    display: flex;
+    flex-direction: column;
+    word-wrap: wrap;
+  }
+  
+}
+/* .iframe-container-projects{
+  position: relative;
+  width: 100%;
+  padding-bottom: 50%;  
+  height: 0;
+}
+.iframe-container-projects iframe{
+   position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}  */
+
 
