@@ -1,17 +1,38 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import CompanyVideo from './videos/CompanyVideo';
+
 
 class Home extends Component {
+
+
   render() {
     return (
       <div>
         <img src="BCLogo.png" alt='' className="homeLogo" />
         {/* <h1>Beige Cashmere</h1> */}
-        <h5 className="introText">
-          We're beige cashmere and we specialize in video production, video
-          editing , and photography
-        </h5>
+        <h1 className="introText">
+          YOUR DESTINATION FOR ALL YOUR VIDEO PRODUCTION & PHOTOGRAPHY NEEDS
+        </h1>
+        <CompanyVideo />
+        <div id="projectsScroll"><br />
+          <h1>PROJECTS</h1>
+        </div>
+        <div class="container" >
+          {/* <p>Check out our projects</p> */}
+          <img className="projectImage image" src="Home-page-projects-pic.png" alt="" />
+          <div class="overlay">
+            <Link to="/projects" className="locationText">
+              <div class="text">
+                <h1>CHECK OUT OUR PROJECTS!</h1>
+              </div>
+            </Link>
+          </div>
+        </div>
         <div id="locationsScroll"><br />
+          <div className="bookNowButtonDiv">
+            <a className="bookNowButton" href="#formScroll">BOOK NOW </a>
+          </div>
           <h1>LOCATIONS</h1>
         </div>
         <div className="locations">
@@ -42,20 +63,6 @@ class Home extends Component {
               NEW YORK
             </Link>
             {/* <a href="/">NEW YORK</a> */}
-          </div>
-        </div>
-        <div id="projectsScroll"><br />
-          <h1>PROJECTS</h1>
-        </div>
-        <div class="container" >
-          {/* <p>Check out our projects</p> */}
-          <img className="projectImage image" src="Home-page-projects-pic.png" alt="" />
-          <div class="overlay">
-            <Link to="/projects" className="locationText">
-              <div class="text">
-                <h1>CHECK OUT OUR PROJECTS!</h1>
-              </div>
-            </Link>
           </div>
         </div>
       </div>
