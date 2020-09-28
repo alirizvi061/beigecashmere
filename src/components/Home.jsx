@@ -8,7 +8,7 @@ class Home extends Component {
 
   render() {
     return (
-      <div>
+      <div className="homePage">
         <img src="BCLogo.png" alt='' className="homeLogo" />
         {/* <h1>Beige Cashmere</h1> */}
         <h1 className="introText">

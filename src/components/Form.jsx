@@ -6,7 +6,7 @@ class Form extends Component {
       <div id="formScroll" className='form'>
         <h2>REQUEST A FREE QUOTE</h2>
         <form
-          action='mailto:email@gmail.com'
+          action='mailto:info@beigecashmere.com'
           method='post'
           name='EmailForm'
           encType='text/plain'

@@ -10,7 +10,7 @@ class Footer extends Component {
                     <SocialIcon className="socialIcon" url="http://facebook.com/beigecashmere" bgColor="#e1c48a" target="_blank" />
                     <SocialIcon className="socialIcon" url="https://www.youtube.com/channel/UCxjzG8XF1IpO_3zRRjawZRQ" bgColor="#e1c48a" target="_blank" />
                 </div>
-                <p>2019 BEIGE CASHMERE LLC ©</p>
+                <p>2020 BEIGE CASHMERE LLC ©</p>
             </div>
         );
     }
