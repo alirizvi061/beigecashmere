@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import spinner from "../assests/spinner.gif"
 // import Gravityballfinal from "./videos/Gravityballfinal"
 
 
@@ -6,6 +7,7 @@ class Projects extends Component {
     render() {
         return (
             <div>
+                {/* <h1>PROJECTS</h1> */}
                 <h1>PROJECTS</h1>
                 <h2>COMMERCIALS</h2>
                 <div className="commercialsDiv">
