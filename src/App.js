@@ -9,6 +9,7 @@ import Nyc from './components/Nyc';
 import Form from './components/Form';
 import Footer from './components/Footer';
 import NavMenu from './components/NavMenu';
+import Form2 from './components/Form2';
 
 export default class App extends Component {
   render() {
@@ -20,7 +21,7 @@ export default class App extends Component {
           <Route exact path="/la" component={La} />
           <Route exact path="/chicago" component={Chicago} />
           <Route exact path="/newyork" component={Nyc} />
-          <Form />
+          <Form2 />
           <Footer />
         </BrowserRouter>
       </div>
