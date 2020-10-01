@@ -61,18 +61,18 @@ class Projects extends Component {
       [
         { title: "Heavy In The Streets - FTLCOOLAID", id: "460428904" },
         { title: "Facts - FTLCOOLAID", id: "460428501" },
+        { title: "What I Want - Coolest Kid AJ", id: "460427859" },
       ],
       [
-        { title: "What I Want - Coolest Kid AJ", id: "460427859" },
         { title: "Car/Gaari - Siddzartha", id: "460426964" },
         { title: "Bust Down Necklace - Nat$uki", id: "460425662" },
+        { title: "Confession - CAM", id: "460426477" },
       ],
       [
-        { title: "Confession - CAM", id: "460426477" },
         { title: "My Dawg - CAM", id: "460426758" },
         { title: "Bleed - VK Belle", id: "460425375" },
+        { title: "California Girl - Ju$to", id: "460425101" },
       ],
-      [{ title: "California Girl - Ju$to", id: "460425101" }],
     ];
 
     function accordionClick(event) {
