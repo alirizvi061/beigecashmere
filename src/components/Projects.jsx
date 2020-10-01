@@ -136,58 +136,64 @@ class Projects extends Component {
       <div>
         {/* <h1>PROJECTS</h1> */}
         <h1>PROJECTS</h1>
-        <h2>COMMERCIALS</h2>
-        {commercialVideos.map((row, rIndex) => {
-          return (
-            <div className='commercialsDiv' key={`row_${rIndex}`}>
-              {row.map((video) => {
-                return (
-                  <iframe
-                    key={`key_${video.src}`}
-                    title={video.title}
-                    src={video.src}
-                    width='640'
-                    height='160'
-                    frameBorder='0'
-                    allow='autoplay; fullscreen'
-                    allowFullScreen
-                  ></iframe>
-                );
-              })}
-            </div>
-          );
-        })}
-
-        <h2>MUSIC VIDEOS</h2>
-        {musicVideos.map((row, rIndex) => {
-          return (
-            <div className='commercialsDiv' key={`row_${rIndex}`}>
-              {row.map((video) => {
-                return (
-                  <iframe
-                    key={`key_${video.src}`}
-                    title={video.title}
-                    src={video.src}
-                    width='640'
-                    height='160'
-                    frameBorder='0'
-                    allow='autoplay; fullscreen'
-                    allowFullScreen
-                  ></iframe>
-                );
-              })}
-            </div>
-          );
-        })}
+        <button
+          className='accordion text-center'
+          onClick={(event) => accordionClick(event)}
+        >
+          COMMERCIALS
+        </button>
+        <div className='accordion-panel'>
+          {commercialVideos.map((row, rIndex) => {
+            return (
+              <div className='commercialsDiv' key={`row_${rIndex}`}>
+                {row.map((video) => {
+                  return (
+                    <iframe
+                      key={`key_${video.src}`}
+                      title={video.title}
+                      src={video.src}
+                      width='640'
+                      height='160'
+                      frameBorder='0'
+                      allow='autoplay; fullscreen'
+                      allowFullScreen
+                    ></iframe>
+                  );
+                })}
+              </div>
+            );
+          })}
+        </div>
 
         <button
           className='accordion text-center'
           onClick={(event) => accordionClick(event)}
         >
-          Accordion Header
+          MUSIC VIDEOS
         </button>
 
-        <div className='accordion-panel'>{"test"}</div>
+        <div className='accordion-panel'>
+          {musicVideos.map((row, rIndex) => {
+            return (
+              <div className='commercialsDiv' key={`row_${rIndex}`}>
+                {row.map((video) => {
+                  return (
+                    <iframe
+                      key={`key_${video.src}`}
+                      title={video.title}
+                      src={video.src}
+                      width='640'
+                      height='160'
+                      frameBorder='0'
+                      allow='autoplay; fullscreen'
+                      allowFullScreen
+                    ></iframe>
+                  );
+                })}
+              </div>
+            );
+          })}
+        </div>
       </div>
     );
   }
