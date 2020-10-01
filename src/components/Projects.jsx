@@ -122,6 +122,16 @@ class Projects extends Component {
       ],
     ];
 
+    function accordionClick(event) {
+      event.target.classList.toggle("accordion-active");
+      let panel = event.target.nextElementSibling;
+      if (panel.style.maxHeight) {
+        panel.style.maxHeight = null;
+      } else {
+        panel.style.maxHeight = panel.scrollHeight + 15 + "px";
+      }
+    }
+
     return (
       <div>
         {/* <h1>PROJECTS</h1> */}
@@ -169,6 +179,15 @@ class Projects extends Component {
             </div>
           );
         })}
+
+        <button
+          className='accordion text-center'
+          onClick={(event) => accordionClick(event)}
+        >
+          Accordion Header
+        </button>
+
+        <div className='accordion-panel'>{"test"}</div>
       </div>
     );
   }
