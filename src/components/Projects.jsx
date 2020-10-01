@@ -135,12 +135,14 @@ class Projects extends Component {
       <div>
         {/* <h1>PROJECTS</h1> */}
         <h1>PROJECTS</h1>
+
         <button
           className='accordion text-center'
           onClick={(event) => accordionClick(event)}
         >
           COMMERCIALS
         </button>
+
         <div className='accordion-panel'>
           {commercialVideos.map((row, rIndex) => {
             return (
@@ -173,6 +175,36 @@ class Projects extends Component {
 
         <div className='accordion-panel'>
           {musicVideos.map((row, rIndex) => {
+            return (
+              <div className='commercialsDiv' key={`row_${rIndex}`}>
+                {row.map((video) => {
+                  return (
+                    <iframe
+                      key={`key_${video.id}`}
+                      title={video.title}
+                      src={`https://player.vimeo.com/video/${video.id}`}
+                      width='640'
+                      height='160'
+                      frameBorder='0'
+                      allow='autoplay; fullscreen'
+                      allowFullScreen
+                    ></iframe>
+                  );
+                })}
+              </div>
+            );
+          })}
+        </div>
+
+        <button
+          className='accordion text-center'
+          onClick={(event) => accordionClick(event)}
+        >
+          OTHER
+        </button>
+
+        <div className='accordion-panel'>
+          {otherVideos.map((row, rIndex) => {
             return (
               <div className='commercialsDiv' key={`row_${rIndex}`}>
                 {row.map((video) => {
