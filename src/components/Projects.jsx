@@ -6,6 +6,21 @@ class Projects extends Component {
   render() {
     let commercialVideos = [
       [
+        { title: "Gravity Ball Tennis Commercial", id: "463258092" },
+        { title: "Gravity Ball Company Commercial", id: "463258074" },
+        { title: "Gravity Ball Golf Commercial", id: "463258064" },
+      ],
+      [
+        { title: "GRAVITY BALL BASEBALL FINAL.mp4", id: "461896496" },
+        { title: "Gravity Ball Golf Commercial", id: "461894477" },
+        { title: "Gravity Ball Baseball Commercial", id: "461894002" },
+      ],
+      [
+        { title: "Claire Proft Interview Commercial", id: "460807902" },
+        { title: "Claire Proft Commercial 2", id: "460807710" },
+        { title: "Claire Proft Lifestyle Commercial", id: "460765693" },
+      ],
+      [
         { title: "AutoMax Exotics Street Commercial", id: "460735401" },
         { title: "AutoMax Exotics Commercial", id: "460735203" },
         { title: "Lady D Cosmetics BTS Commercial", id: "460733901" },
