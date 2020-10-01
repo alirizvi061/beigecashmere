@@ -90,6 +90,37 @@ class Projects extends Component {
       ],
     ];
 
+    let otherVideos = [
+      [
+        {
+          title: "American Martial Arts Academy Naperville HighlightVideo",
+          id: "463260221",
+        },
+        {
+          title: "American Martial ArtsAcademy Naperville Commercial",
+          id: "463259861",
+        },
+        { title: "Fahad & Hafsah's Wedding", id: "463256874" },
+      ],
+      [
+        { title: "Gagan & Jolly's Wedding", id: "463256967" },
+        { title: "Rehan's Proposal", id: "460740962" },
+        {
+          title: "Noya Jibon Made Fairly KickstarterCampaign Video",
+          id: "460741963",
+        },
+      ],
+      [
+        { title: "Cairo'sBirthday", id: "460738785" },
+        { title: "Phil & Kat'sWedding", id: "460738170" },
+        { title: "Julie's Wedding", id: "460737981" },
+      ],
+      [
+        { title: "Keys To The Kingdomof Heaven Short Film", id: "460720521" },
+        { title: "88Seasons TeaserTrailer", id: "460716508" },
+      ],
+    ];
+
     function accordionClick(event) {
       event.target.classList.toggle("accordion-active");
       let panel = event.target.nextElementSibling;
