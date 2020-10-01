@@ -105,12 +105,51 @@ class Projects extends Component {
       ],
     ];
 
+    let musicVideos = [
+      [
+        {
+          title: "Bitter Moments - Chris Marr",
+          src: "https://player.vimeo.com/video/460430651",
+        },
+        {
+          title: "Blessings - Gee Kazz",
+          src: "https://player.vimeo.com/video/460430336",
+        },
+        {
+          title: "Gimme That Nana - Steve Medea",
+          src: "https://player.vimeo.com/video/460430197",
+        },
+      ],
+    ];
+
     return (
       <div>
         {/* <h1>PROJECTS</h1> */}
         <h1>PROJECTS</h1>
         <h2>COMMERCIALS</h2>
         {commercialVideos.map((row, rIndex) => {
+          return (
+            <div className='commercialsDiv' key={`row_${rIndex}`}>
+              {row.map((video) => {
+                return (
+                  <iframe
+                    key={`key_${video.src}`}
+                    title={video.title}
+                    src={video.src}
+                    width='640'
+                    height='160'
+                    frameBorder='0'
+                    allow='autoplay; fullscreen'
+                    allowFullScreen
+                  ></iframe>
+                );
+              })}
+            </div>
+          );
+        })}
+
+        <h2>MUSIC VIDEOS</h2>
+        {musicVideos.map((row, rIndex) => {
           return (
             <div className='commercialsDiv' key={`row_${rIndex}`}>
               {row.map((video) => {
