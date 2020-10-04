@@ -3,6 +3,8 @@ import React, { Component } from "react";
 // import Gravityballfinal from "./videos/Gravityballfinal"
 
 class Projects extends Component {
+
+
   render() {
     let commercialVideos = [
       [
@@ -140,6 +142,37 @@ class Projects extends Component {
           className='accordion text-center'
           onClick={(event) => accordionClick(event)}
         >
+          MUSIC VIDEOS
+        </button>
+
+        <div className='accordion-panel'>
+          {musicVideos.map((row, rIndex) => {
+            return (
+              <div className='commercialsDiv' key={`row_${rIndex}`}>
+                {row.map((video) => {
+                  return (
+                    <iframe
+                      key={`key_${video.id}`}
+                      title={video.title}
+                      src={`https://player.vimeo.com/video/${video.id}`}
+                      width='640'
+                      height='160'
+                      frameBorder='0'
+                      allow='autoplay; fullscreen'
+                      allowFullScreen
+                    ></iframe>
+                  );
+                })}
+              </div>
+            );
+          })}
+        </div>
+
+
+        <button
+          className='accordion text-center'
+          onClick={(event) => accordionClick(event)}
+        >
           COMMERCIALS
         </button>
 
@@ -166,7 +199,7 @@ class Projects extends Component {
           })}
         </div>
 
-        <button
+        {/* <button
           className='accordion text-center'
           onClick={(event) => accordionClick(event)}
         >
@@ -194,7 +227,7 @@ class Projects extends Component {
               </div>
             );
           })}
-        </div>
+        </div> */}
 
         <button
           className='accordion text-center'
