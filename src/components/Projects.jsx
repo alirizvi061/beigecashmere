@@ -135,7 +135,7 @@ class Projects extends Component {
 
     return (
       <div>
-        {/* <h1>PROJECTS</h1> */}
+
         <h1>PROJECTS</h1>
 
         <button
