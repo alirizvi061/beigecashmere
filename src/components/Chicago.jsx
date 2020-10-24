@@ -32,7 +32,7 @@ class Chicago extends Component {
             {
                 name: "LORENZO LEYVA",
                 title: "DIRECTOR",
-                img: "Lorenzo Leyva Director.png"
+                img: "Lorenzo Leyva Director.jpg"
             }
         ];
         return (
