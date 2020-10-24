@@ -321,15 +321,42 @@ input[type='submit']:hover {
 
 .commercialsDiv{
   display: flex;
-  flex-direction: row;
-  margin-bottom: 50px;
+  justify-content: center;
+}
+
+.videos{
+  width: 280px;
+  padding: 20px;
+}
+@media (max-width: 1300px) {
+  .commercialsDiv{
+    display: flex;
+    flex-direction: row;
+    margin-left: 5%;
+  }
+}
+
+@media (max-width: 1050px) {
+  .commercialsDiv{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0;
+  }
 }
 
 @media (max-width: 1000px) {
   .commercialsDiv{
     display: flex;
-    flex-direction: column;
-    word-wrap: wrap;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 550px) {
+  .commercialsDiv{
+    display: flex;
+    overflow: scroll;
   }
   
 }
@@ -367,7 +394,7 @@ input[type='submit']:hover {
   padding: 0px 18px;
   /* background-color: white; */
   max-height: 0;
-  overflow: hidden;
+  overflow: auto;
   transition: max-height 0.2s ease-out, padding 0.1s ease-out;
   border: 1px #9e8148 solid;
 }

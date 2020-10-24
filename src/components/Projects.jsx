@@ -152,11 +152,12 @@ class Projects extends Component {
                 {row.map((video) => {
                   return (
                     <iframe
+                      className='videos'
                       key={`key_${video.id}`}
                       title={video.title}
                       src={`https://player.vimeo.com/video/${video.id}`}
-                      width='640'
-                      height='160'
+                      // width='640'
+                      // height='160'
                       frameBorder='0'
                       allow='autoplay; fullscreen'
                       allowFullScreen
@@ -183,11 +184,12 @@ class Projects extends Component {
                 {row.map((video) => {
                   return (
                     <iframe
+                      className='videos'
                       key={`key_${video.id}`}
                       title={video.title}
                       src={`https://player.vimeo.com/video/${video.id}`}
-                      width='640'
-                      height='160'
+                      // width='640'
+                      // height='160'
                       frameBorder='0'
                       allow='autoplay; fullscreen'
                       allowFullScreen
@@ -243,11 +245,12 @@ class Projects extends Component {
                 {row.map((video) => {
                   return (
                     <iframe
+                      className='videos'
                       key={`key_${video.id}`}
                       title={video.title}
                       src={`https://player.vimeo.com/video/${video.id}`}
-                      width='640'
-                      height='160'
+                      // width='640'
+                      // height='160'
                       frameBorder='0'
                       allow='autoplay; fullscreen'
                       allowFullScreen
