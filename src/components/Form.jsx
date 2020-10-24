@@ -18,11 +18,11 @@ class Form extends Component {
             value='Quote Request'
             hidden
           />
-          <input type='text' size='60' placeholder='NAME' name='name' />
+          <input type='text' placeholder='NAME' name='name' />
           <br />
-          <input type='text' size='60' placeholder='EMAIL' name='email' />
+          <input type='text' placeholder='EMAIL' name='email' />
           <br />
-          <input type='text' size='60' placeholder='PHONE' name='phone' />
+          <input type='text' placeholder='PHONE' name='phone' />
           <br />
           <textarea
             type='text'
@@ -30,7 +30,7 @@ class Form extends Component {
             name='comment'>
           </textarea>
           <br />
-          <input size='55' type='submit' value='EMAIL' />
+          <input type='submit' value='EMAIL' />
           <br />
         </form>
       </div>
