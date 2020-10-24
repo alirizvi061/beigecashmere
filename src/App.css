@@ -24,8 +24,10 @@ h1 {
 
 @media (max-width: 1000px) {
   .homeLogo{
-    margin-top: 15%;
     width: 50%;
+  }
+  body{
+    margin-top: 50px;
   }
   
 }
@@ -155,6 +157,7 @@ h1 {
 .meetTeamHeader{
   margin-top: 5%;
 }
+
 .teamPicDiv{
   display: flex;
   justify-content: space-between;
@@ -214,16 +217,12 @@ h1 {
 
 @media only screen and (max-width: 600px) {
   .form {
-    /* border: 1px solid yellow; */
-
     display: flex;
     flex-direction: column;
     align-items: center;
   }
 
 }
-
-
 
 input[type='text']{
   background-color: #e1c48a;
