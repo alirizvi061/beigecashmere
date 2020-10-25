@@ -1,12 +1,15 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import CompanyVideo from './videos/CompanyVideo';
+import history from '../../src/history';
 
 
 class Home extends Component {
 
 
   render() {
+
+    console.log(this.state)
     return (
       <div className="homePage">
         <img src="BCLogo.png" alt='' className="homeLogo" />
@@ -47,7 +50,7 @@ class Home extends Component {
             {/* <a href="/">LOS ANGELES</a> */}
           </div>
           <div className="locationsDiv">
-            <Link to="/chicago">
+            <Link to="/chicago?tab=chicago">
               <img src="Chicago.jpg" className="locationsPic" alt="Chicago" />
             </Link>
             <Link to="/chicago" className="locationText">
@@ -56,7 +59,7 @@ class Home extends Component {
             {/* <a href="/">CHICAGO</a> */}
           </div>
           <div className="locationsDiv">
-            <Link to="/newyork">
+            <Link to="/newyork?tab=ny">
               <img src="Newyork.jpg" className="locationsPic" alt="New York" />
             </Link>
             <Link to="/newyork" className="locationText">

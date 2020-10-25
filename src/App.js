@@ -12,11 +12,12 @@ import Footer from './components/Footer';
 import NavMenu from './components/NavMenu';
 
 export default class App extends Component {
+  
   render() {
     return (
       <div>
         <BrowserRouter>
-          {<NavMenu />}
+        {<NavMenu />}
           <Route exact path="/" component={Home} />
           <Route exact path="/la" component={La} />
           <Route exact path="/chicago" component={Chicago} />

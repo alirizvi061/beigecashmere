@@ -14,20 +14,20 @@ class Form extends Component {
           <input
             type='text'
             size='70'
-            name='subject'
+            name='Subject'
             value='Quote Request'
             hidden
           />
-          <input type='text' placeholder='NAME' name='name' />
+          <input type='text' placeholder='NAME' name='Name' />
           <br />
-          <input type='text' placeholder='EMAIL' name='email' />
+          <input type='text' placeholder='EMAIL' name='Email' />
           <br />
-          <input type='text' placeholder='PHONE' name='phone' />
+          <input type='text' placeholder='PHONE' name='Phone' />
           <br />
           <textarea
             type='text'
             placeholder='TELL US ABOUT YOUR PROJECT'
-            name='comment'>
+            name='Project Information'>
           </textarea>
           <br />
           <input type='submit' value='EMAIL' />

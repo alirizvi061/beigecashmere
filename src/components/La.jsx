@@ -17,8 +17,8 @@ class La extends Component {
                 FROM THE INITIAL CONCEPTION OF YOUR PROJECT TO THE FINISHED PRODUCT, WE ARE WITH YOU EVERY STEP OF THE PRODUCTION PROCESS.
 
                 OUR BEIGE EXCELLENCE PROMISE ENSURES YOUR FULL SATISFACTION OR WE WILL DO EVERYTHING POSSIBLE IN ORDER TO MAKE THINGS RIGHT.
-
-                GET IN TOUCH AND LET’S SHIFT YOUR VISION TO REALITY. </h5>
+                </h5>
+                <h5 className='aboutBlurb'>GET IN TOUCH AND LET’S SHIFT YOUR VISION TO REALITY. </h5>
 
                 <div className="bookNowButtonDiv">
                     <a className="bookNowButton" href="#formScroll">BOOK NOW </a>
