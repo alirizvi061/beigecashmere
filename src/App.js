@@ -12,6 +12,7 @@ import Footer from './components/Footer';
 import NavMenu from './components/NavMenu';
 
 export default class App extends Component {
+
   
   render() {
     return (

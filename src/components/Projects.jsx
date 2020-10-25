@@ -1,9 +1,19 @@
 import React, { Component } from "react";
-// import spinner from "../assests/spinner.gif";
-// import Gravityballfinal from "./videos/Gravityballfinal"
+const Spinner = require('react-spinkit');
 
 class Projects extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      loading: true
+    };
+  }
 
+  hideSpinner = () => {
+    this.setState({
+      loading: false
+    });
+  };
 
   render() {
     let commercialVideos = [
@@ -117,15 +127,27 @@ class Projects extends Component {
         </button>
 
         <div className='accordion-panel'>
+          {this.state.loading ? (
+
+            <Spinner
+              className="loading text-center"
+              name="three-bounce"
+              color="white"
+              fadeIn="none"
+            />
+
+          ) : null}
           {musicVideos.map((row, rIndex) => {
             return (
               <div className='commercialsDiv' key={`row_${rIndex}`}>
                 {row.map((video) => {
                   return (
+
                     <iframe
                       className='videos'
                       key={`key_${video.id}`}
                       title={video.title}
+                      onLoad={this.hideSpinner}
                       src={`https://player.vimeo.com/video/${video.id}`}
                       frameBorder='0'
                       allow='autoplay; fullscreen'
@@ -147,6 +169,14 @@ class Projects extends Component {
         </button>
 
         <div className='accordion-panel'>
+          {this.state.loading ? (
+            <Spinner
+              className="loading text-center"
+              name="three-bounce"
+              color="white"
+              fadeIn="none"
+            />
+          ) : null}
           {commercialVideos.map((row, rIndex) => {
             return (
               <div className='commercialsDiv' key={`row_${rIndex}`}>
@@ -177,6 +207,14 @@ class Projects extends Component {
         </button>
 
         <div className='accordion-panel'>
+          {this.state.loading ? (
+            <Spinner
+              className="loading text-center"
+              name="three-bounce"
+              color="white"
+              fadeIn="none"
+            />
+          ) : null}
           {otherVideos.map((row, rIndex) => {
             return (
               <div className='commercialsDiv' key={`row_${rIndex}`}>
