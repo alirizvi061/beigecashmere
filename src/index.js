@@ -10,7 +10,6 @@ ReactDOM.render(
     <HttpsRedirect>
     <App />
     </HttpsRedirect>
-    
   </React.StrictMode>,
   document.getElementById('root')
 );
