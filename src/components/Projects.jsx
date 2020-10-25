@@ -37,6 +37,7 @@ class Projects extends Component {
         { title: "Solar Bank Commercial3", id: "460715965" },
         { title: "Solar Bank Commercial2", id: "460714992" },
         { title: "Solar Bank Commercial1", id: "460714697" },
+        { title: "Solar Bank Commercial 4", id: "466880175" },
         { title: "Talosys Commercial 1", id: "460707185" },
         { title: "Talosys Commercial 2", id: "460706925" },
         { title: "IV Organics Commercial", id: "460702354" },
@@ -54,6 +55,7 @@ class Projects extends Component {
           id: "460741963",
         },
         { title: "Keys To The Kingdomof Heaven Short Film", id: "460720521" },
+
       ]
     ];
 
@@ -75,6 +77,9 @@ class Projects extends Component {
         { title: "Bleed - VK Belle", id: "460425375" },
         { title: "California Girl - Ju$to", id: "460425101" },
         { title: "88Seasons TeaserTrailer", id: "460716508" },
+        { title: "Silk Route Final Cut", id: "460431089" },
+        { title: "The Prophecy Final Cut", id: "460434318" },
+        { title: "Curtains Closed - B.BLESS", id: "460434876" },
       ]
     ];
 
