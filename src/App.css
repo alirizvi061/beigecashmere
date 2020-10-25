@@ -328,6 +328,9 @@ input[type='submit']:hover {
 .commercialsDiv{
   display: flex;
   justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+
 }
 
 .videos{

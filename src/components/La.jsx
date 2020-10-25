@@ -46,6 +46,10 @@ class La extends Component {
                         <h5>UNAISA HASSAN - PRODUCER</h5>
                     </span>
                     <span className="teamPicSpan">
+                        <img className="teamPic" src="Eli Shine.jpeg" alt="team-member" />
+                        <h5>ELI SHINE - DIRECTOR OF PHOTOGRAPHY</h5>
+                    </span>
+                    <span className="teamPicSpan">
                         <img className="teamPic" src="Nicholas Gaietto Director Of Photograpy.jpg" alt="team-member" />
                         <h5>NICHOLAS GAIETTO - DIRECTOR OF PHOTOGRAPHY</h5>
                     </span>
