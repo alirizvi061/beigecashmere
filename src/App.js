@@ -24,7 +24,7 @@ export default class App extends Component {
           <Route exact path="/chicago" component={Chicago} />
           <Route exact path="/newyork" component={Nyc} />
           <Route exact path="/projects" component={Projects} />
-          <Form />
+          {/* <Form /> */}
           <Footer />
         </BrowserRouter>
       </div>
