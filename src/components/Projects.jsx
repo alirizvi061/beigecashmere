@@ -114,6 +114,20 @@ class Projects extends Component {
       }
     }
 
+    //replace fake video image with real iframe video when clicked
+    function videoClick(event){
+      //get parent div of current img element that was clicked and change its html from img to iframe
+      event.target.parentNode.innerHTML = (`
+        <iframe
+          title=${event.target.dataset.videotitle}
+          src='https://player.vimeo.com/video/${event.target.dataset.videoid}'
+          frameborder='0'
+          allow='autoplay; fullscreen'
+          allowfullscreen
+        ></iframe>
+      `)
+    }
+
     return (
       <div>
 
@@ -142,17 +156,9 @@ class Projects extends Component {
               <div className='commercialsDiv' key={`row_${rIndex}`}>
                 {row.map((video) => {
                   return (
-
-                    <iframe
-                      className='videos'
-                      key={`key_${video.id}`}
-                      title={video.title}
-                      onLoad={this.hideSpinner}
-                      src={`https://player.vimeo.com/video/${video.id}`}
-                      frameBorder='0'
-                      allow='autoplay; fullscreen'
-                      allowFullScreen
-                    ></iframe>
+                    <div className={`videos`} key={`key_vidDiv_${video.id}`}>
+                      <img key={`key_vidImg_${video.id}`} src="/screenshots/VideoScreenshot_Bitter.jpg" alt="" data-videoid={video.id} data-videotitle={video.title} onLoad={this.hideSpinner} onClick={(e)=>videoClick(e)}/>
+                    </div>
                   );
                 })}
               </div>
@@ -182,15 +188,9 @@ class Projects extends Component {
               <div className='commercialsDiv' key={`row_${rIndex}`}>
                 {row.map((video) => {
                   return (
-                    <iframe
-                      className='videos'
-                      key={`key_${video.id}`}
-                      title={video.title}
-                      src={`https://player.vimeo.com/video/${video.id}`}
-                      frameBorder='0'
-                      allow='autoplay; fullscreen'
-                      allowFullScreen
-                    ></iframe>
+                    <div className={`videos`} key={`key_vidDiv_${video.id}`}>
+                      <img key={`key_vidImg_${video.id}`} src="/screenshots/VideoScreenshot_Bitter.jpg" alt="" data-videoid={video.id} data-videotitle={video.title} onLoad={this.hideSpinner} onClick={(e)=>videoClick(e)}/>
+                    </div>
                   );
                 })}
               </div>
@@ -220,15 +220,9 @@ class Projects extends Component {
               <div className='commercialsDiv' key={`row_${rIndex}`}>
                 {row.map((video) => {
                   return (
-                    <iframe
-                      className='videos'
-                      key={`key_${video.id}`}
-                      title={video.title}
-                      src={`https://player.vimeo.com/video/${video.id}`}
-                      frameBorder='0'
-                      allow='autoplay; fullscreen'
-                      allowFullScreen
-                    ></iframe>
+                    <div className={`videos`} key={`key_vidDiv_${video.id}`}>
+                      <img key={`key_vidImg_${video.id}`} src="/screenshots/VideoScreenshot_Bitter.jpg" alt="" data-videoid={video.id} data-videotitle={video.title} onLoad={this.hideSpinner} onClick={(e)=>videoClick(e)}/>
+                    </div>
                   );
                 })}
               </div>
