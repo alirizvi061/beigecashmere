@@ -119,7 +119,7 @@ class Projects extends Component {
       //get parent div of current img element that was clicked and change its html from img to iframe
       event.target.parentNode.innerHTML = (`
         <iframe
-          title=${event.target.dataset.videotitle}
+          title='${event.target.dataset.videotitle}'
           src='https://player.vimeo.com/video/${event.target.dataset.videoid}'
           frameborder='0'
           allow='autoplay; fullscreen'
