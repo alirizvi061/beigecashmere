@@ -1,11 +1,18 @@
 import React, { Component } from "react";
+import Mailto from 'react-protected-mailto'
+
 
 class Form extends Component {
   render() {
     return (
       <div id="formScroll" className='form'>
         <h2>REQUEST A FREE QUOTE</h2>
-        <form
+        <Mailto
+          email='info@beigecashmere.com'
+          headers={
+            { subject: 'Question from pricing' }
+          } />
+        {/* <form
           action='mailto:info@beigecashmere.com'
           method='post'
           name='EmailForm'
@@ -32,7 +39,7 @@ class Form extends Component {
           <br />
           <input type='submit' value='EMAIL' />
           <br />
-        </form>
+        </form> */}
       </div>
     );
   }
