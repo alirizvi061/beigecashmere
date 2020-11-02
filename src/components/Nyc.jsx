@@ -7,12 +7,12 @@ class Nyc extends Component {
       {
         name: "KAWSER KHAN",
         title: "EXECUTIVE PRODUCER",
-        img: "Kawser Khan Executive Producer NY.jpg"
+        img: "Kawser Khan Executive Producer.jpg"
       },
       {
         name: "KIMBERLY REED",
         title: "PROJECT MANAGER",
-        img: "Kimberly Reed Project Manager NY.JPG"
+        img: "Kimberly Reed Project Manager.JPG"
       },
       {
         name: "MICHAEL EZRACHI",

@@ -84,6 +84,8 @@ class NavMenu extends Component {
               }
 
               <Nav.Link href='/la'>LOS ANGELES</Nav.Link>
+              <Nav.Link href='/chicago'>CHICAGO</Nav.Link>
+              <Nav.Link href='/newyork'>NEW YORK</Nav.Link>
               <Nav.Link href='#formScroll'>BOOK NOW</Nav.Link>
             </Nav>
           </Navbar.Collapse>

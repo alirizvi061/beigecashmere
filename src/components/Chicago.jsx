@@ -7,12 +7,12 @@ class Chicago extends Component {
             {
                 name: "KAWSER KHAN",
                 title: "EXECUTIVE PRODUCER",
-                img: "Kawser Khan Executive Producer CHI.jpg"
+                img: "Kawser Khan Executive Producer.jpg"
             },
             {
                 name: "KIMBERLY REED",
                 title: "PROJECT MANAGER",
-                img: "Kimberly Reed Project Manager CHI.JPG"
+                img: "Kimberly Reed Project Manager.JPG"
             },
             {
                 name: "AVANI MEHTA",

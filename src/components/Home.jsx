@@ -41,7 +41,7 @@ class Home extends Component {
         <div className="locations">
           <div className="locationsDiv">
             <Link to="/la">
-              <img src="LA.jpg" className="locationsPic" alt="LA" />
+              <img src="LA-min.jpg" className="locationsPic" alt="LA" />
             </Link>
             <Link to="/la" className="locationText">
               LOS ANGELES
@@ -51,7 +51,7 @@ class Home extends Component {
           </div>
           <div className="locationsDiv">
             <Link to="/chicago">
-              <img src="Chicago.jpg" className="locationsPic" alt="Chicago" />
+              <img src="Chicago-min.jpg" className="locationsPic" alt="Chicago" />
             </Link>
             <Link to="/chicago" className="locationText">
               CHICAGO
@@ -60,7 +60,7 @@ class Home extends Component {
           </div>
           <div className="locationsDiv">
             <Link to="/newyork?tab=ny">
-              <img src="Newyork.jpg" className="locationsPic" alt="New York" />
+              <img src="Newyork-min.jpg" className="locationsPic" alt="New York" />
             </Link>
             <Link to="/newyork" className="locationText">
               NEW YORK
