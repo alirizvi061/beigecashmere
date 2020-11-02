@@ -117,7 +117,7 @@ class Projects extends Component {
     return (
       <div>
 
-        <h1>PROJECTS</h1>
+        <h1>VIDEO PRODUCTION</h1>
 
         <button
           className='accordion text-center'
@@ -203,7 +203,7 @@ class Projects extends Component {
           className='accordion text-center'
           onClick={(event) => accordionClick(event)}
         >
-          WEDDINGS
+          WEDDINGS & EVENTS
         </button>
 
         <div className='accordion-panel'>

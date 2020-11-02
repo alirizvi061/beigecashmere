@@ -10,6 +10,7 @@ import Projects from './components/Projects';
 import Form from './components/Form';
 import Footer from './components/Footer';
 import NavMenu from './components/NavMenu';
+import Photography from './components/Photography';
 
 export default class App extends Component {
 
@@ -24,6 +25,7 @@ export default class App extends Component {
           <Route exact path="/chicago" component={Chicago} />
           <Route exact path="/newyork" component={Nyc} />
           <Route exact path="/projects" component={Projects} />
+          <Route exact path="/photography" component={Photography} />
           <Form />
           <Footer />
         </BrowserRouter>

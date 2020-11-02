@@ -79,10 +79,10 @@ class NavMenu extends Component {
                 HOME
               </Nav.Link>
               {!window.location.search ?
-                <Nav.Link href='/projects?tab=projects'>PROJECTS</Nav.Link>
+                <Nav.Link href='/projects?tab=projects'>VIDEO PRODUCTION</Nav.Link>
                 : null
               }
-
+              <Nav.Link href='/photography'>PHOTOGRAPHY</Nav.Link>
               <Nav.Link href='/la'>LOS ANGELES</Nav.Link>
               <Nav.Link href='/chicago'>CHICAGO</Nav.Link>
               <Nav.Link href='/newyork'>NEW YORK</Nav.Link>

@@ -46,8 +46,6 @@ class Home extends Component {
             <Link to="/la" className="locationText">
               LOS ANGELES
             </Link>
-            {/* <div class="locationText">LOS ANGELES</div> */}
-            {/* <a href="/">LOS ANGELES</a> */}
           </div>
           <div className="locationsDiv">
             <Link to="/chicago">
