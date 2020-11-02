@@ -23,7 +23,7 @@ class Home extends Component {
         </div>
         <div class="container" >
           {/* <p>Check out our projects</p> */}
-          <img className="projectImage image" src="Home-page-projects-pic.png" alt="" />
+          <img className="projectImage image" src="Home-page-projects-pic-min.png" alt="" />
           <div class="overlay">
             <Link to="/projects" className="locationText">
               <div class="text">
@@ -50,7 +50,7 @@ class Home extends Component {
             {/* <a href="/">LOS ANGELES</a> */}
           </div>
           <div className="locationsDiv">
-            <Link to="/chicago?tab=chicago">
+            <Link to="/chicago">
               <img src="Chicago.jpg" className="locationsPic" alt="Chicago" />
             </Link>
             <Link to="/chicago" className="locationText">

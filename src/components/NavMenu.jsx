@@ -83,7 +83,7 @@ class NavMenu extends Component {
                 : null
               }
 
-              {/* <Nav.Link href='#locationsScroll'>LOCATIONS</Nav.Link> */}
+              <Nav.Link href='/la'>LOS ANGELES</Nav.Link>
               <Nav.Link href='#formScroll'>BOOK NOW</Nav.Link>
             </Nav>
           </Navbar.Collapse>
