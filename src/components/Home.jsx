@@ -54,7 +54,7 @@ class Home extends Component {
             </Link>
           </div>
           <div className="locationsDiv">
-            <Link to="/newyork?tab=ny">
+            <Link to="/newyork">
               <img src="Newyork-min.jpg" className="locationsPic" alt="New York" />
             </Link>
             <Link to="/newyork" className="locationText">
