@@ -13,7 +13,6 @@ class Home extends Component {
     return (
       <div className="homePage">
         <img src="BCLogo.png" alt='' className="homeLogo" />
-        {/* <h1>Beige Cashmere</h1> */}
         <h1 className="introText">
           YOUR DESTINATION FOR ALL YOUR VIDEO PRODUCTION & PHOTOGRAPHY NEEDS
         </h1>
@@ -22,7 +21,6 @@ class Home extends Component {
           <h1>PROJECTS</h1>
         </div>
         <div class="container" >
-          {/* <p>Check out our projects</p> */}
           <img className="projectImage image" src="Home-page-projects-pic-min.png" alt="" />
           <div class="overlay">
             <Link to="/projects" className="locationText">
@@ -54,7 +52,6 @@ class Home extends Component {
             <Link to="/chicago" className="locationText">
               CHICAGO
             </Link>
-            {/* <a href="/">CHICAGO</a> */}
           </div>
           <div className="locationsDiv">
             <Link to="/newyork?tab=ny">
@@ -63,7 +60,6 @@ class Home extends Component {
             <Link to="/newyork" className="locationText">
               NEW YORK
             </Link>
-            {/* <a href="/">NEW YORK</a> */}
           </div>
         </div>
       </div>
