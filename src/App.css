@@ -376,10 +376,11 @@ input[type='submit']:hover {
 @media (max-width: 550px) {
   .commercialsDiv{
     display: flex;
-    overflow: scroll;
+    overflow: hidden;
   }
   
 }
+
 
 /*************** Accordion CSS Styles START ***************/
 
@@ -415,7 +416,7 @@ input[type='submit']:hover {
   padding: 0px 18px;
   /* background-color: white; */
   max-height: 0;
-  overflow: auto;
+  overflow: hidden;
   transition: max-height 0.2s ease-out, padding 0.1s ease-out;
   border: 1px #9e8148 solid;
 }
