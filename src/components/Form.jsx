@@ -7,12 +7,12 @@ class Form extends Component {
     return (
       <div id="formScroll" className='form'>
         <h2>REQUEST A FREE QUOTE</h2>
-        {/* <Mailto
+        <Mailto
           email='info@beigecashmere.com'
           headers={
             { subject: 'Question from pricing' }
-          } /> */}
-        <form
+          } />
+        {/* <form
           action='mailto:info@beigecashmere.com'
           method='post'
           name='EmailForm'
@@ -39,7 +39,7 @@ class Form extends Component {
           <br />
           <input type='submit' value='EMAIL' />
           <br />
-        </form>
+        </form> */}
       </div>
     );
   }
