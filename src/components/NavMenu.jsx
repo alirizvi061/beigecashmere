@@ -21,7 +21,9 @@ class NavMenu extends Component {
         >
 
           <Link to='/'>
-            <img src='logoOnly.png' alt='' className='navLogo' />
+            <div>
+              <img src='logoOnly.png' alt='' className='navLogo' />
+            </div>
           </Link>
 
           <Navbar.Toggle aria-controls='basic-navbar-nav' />
