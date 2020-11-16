@@ -70,6 +70,7 @@ h1 {
   width: 300px;
   border-radius: 5px;
   margin-top: 10px;
+  object-fit:cover;
 }
 
 .locationsPic:hover {

@@ -39,7 +39,7 @@ class Home extends Component {
         <div className="locations">
           <div className="locationsDiv">
             <Link to="/la">
-              <img src="LA-min.jpg" className="locationsPic" alt="LA" />
+              <img src="https://images.unsplash.com/photo-1544413660-299165566b1d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80" className="locationsPic" alt="LA" />
             </Link>
             <Link to="/la" className="locationText">
               LOS ANGELES
@@ -47,7 +47,7 @@ class Home extends Component {
           </div>
           <div className="locationsDiv">
             <Link to="/chicago">
-              <img src="Chicago-min.jpg" className="locationsPic" alt="Chicago" />
+              <img src="https://images.unsplash.com/photo-1563718944-758794a56b34?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=975&q=80" className="locationsPic" alt="Chicago" />
             </Link>
             <Link to="/chicago" className="locationText">
               CHICAGO
@@ -55,7 +55,7 @@ class Home extends Component {
           </div>
           <div className="locationsDiv">
             <Link to="/newyork">
-              <img src="Newyork-min.jpg" className="locationsPic" alt="New York" />
+              <img src="https://images.unsplash.com/photo-1528291151377-165f5107c82a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=932&q=80" className="locationsPic" alt="New York" />
             </Link>
             <Link to="/newyork" className="locationText">
               NEW YORK
