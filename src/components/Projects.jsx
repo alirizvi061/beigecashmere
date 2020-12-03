@@ -65,7 +65,17 @@ class Projects extends Component {
           id: "460741963",
         },
         { title: "Keys To The Kingdomof Heaven Short Film", id: "460720521" },
-
+        { title: "Fat Iron Commercial", id: "485303236" },
+        { title: "Rally Towels & Mask Commercial", id: "485306278" },
+        { title: "1 v4.mp4", id: "485306905" },
+        { title: "Colony Fitness Commercial 2", id: "485307083" },
+        { title: "Colony Fitness Commercial 3", id: "485307323" },
+        { title: "Colony Fitness Commercial 5", id: "485308132" },
+        { title: "Colony Fitness Commercial 7", id: "485308619" },
+        { title: "Colony Demo Exercise 1", id: "485308884" },
+        { title: "Colony Demo Exercise 2", id: "485309453" },
+        { title: "Colony Demo Exercise 4", id: "485309916" },
+        { title: "Colony Demo Exercise 3", id: "485309720" },
       ]
     ];
 
@@ -90,6 +100,9 @@ class Projects extends Component {
         { title: "Silk Route Final Cut", id: "460431089" },
         { title: "The Prophecy Final Cut", id: "460434318" },
         { title: "Curtains Closed - B.BLESS", id: "460434876" },
+        { title: "Summer Shinding - Michaela", id: "472074239" },
+        { title: "No Time - Knobble Beast", id: "472075133" },
+        { title: "Long Ride Music Video", id: "485303797" },
       ]
     ];
 
@@ -101,6 +114,13 @@ class Projects extends Component {
         { title: "Cairo'sBirthday", id: "460738785" },
         { title: "Phil & Kat'sWedding", id: "460738170" },
         { title: "Julie's Wedding", id: "460737981" },
+        { title: "Tannaz & Derrick Nikkah Ceremony", id: "472073683" },
+        { title: "Yehezkel & Alexandra’s Wedding", id: "464873941" },
+        { title: "Rocio & Erik Wedding V3.mp4", id: "485303570" },
+        { title: "Paragon Company Awards 2020", id: "485304155" },
+        { title: "Gatharee & Keisha", id: "485304571" },
+        { title: "Hughes Bridal Shower", id: "485305333" },
+        { title: "Tina & Ijendu", id: "472073926" },
       ],
     ];
 
