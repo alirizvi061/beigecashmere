@@ -65,7 +65,7 @@ export default function Form() {
             }/>
         </h5>
         <h5>24 HOURS / 7 DAYS A WEEK </h5>
-        <h5>Address: 2411 WEST OLYMPIC BLVD. STE 5 LOS ANGELES, CA 90006 </h5>
+        <h5>ADDRESS: 2411 WEST OLYMPIC BLVD. STE 5 LOS ANGELES, CA 90006 </h5>
       </div>
 
 
