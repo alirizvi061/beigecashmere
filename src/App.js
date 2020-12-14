@@ -12,6 +12,7 @@ import Footer from './components/Footer';
 import NavMenu from './components/NavMenu';
 import Photography from './components/Photography';
 
+
 export default class App extends Component {
 
   
