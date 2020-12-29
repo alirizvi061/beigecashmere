@@ -35,7 +35,7 @@ class Home extends Component {
       <div className="homePage">
         <img src="BCLogo.png" alt='' className="homeLogo" />
         <h1 className="introText">
-        AFFORDABLE HIGH-QUALITY VIDEO PRODUCTION & PHOTOGRAPHY
+          AFFORDABLE HIGH-QUALITY VIDEO PRODUCTION & PHOTOGRAPHY
         </h1>
         <CompanyVideo />
         <div id="projectsScroll"><br />
@@ -44,9 +44,9 @@ class Home extends Component {
         <div class="container" >
           <img className="projectImage image" src="homepage_videography.png" alt="" />
           <div class="overlay">
-            <Link to="/projects" className="locationText">
+            <Link to="/videography" className="locationText">
               <div class="text">
-                <h1>VIEW OUR VIDEO PROJECTS!</h1>
+                <h1>VIDEOGRAPHY</h1>
               </div>
             </Link>
           </div>
@@ -56,7 +56,7 @@ class Home extends Component {
           <div class="overlay">
             <Link to="/photography" className="locationText">
               <div class="text">
-                <h1>VIEW OUR PHOTO PROJECTS!</h1>
+                <h1>PHOTOGRAPHY</h1>
               </div>
             </Link>
           </div>
@@ -94,65 +94,65 @@ class Home extends Component {
           </div>
         </div>
 
-        <div> 
+        <div>
           <h1>TESTIMONIALS</h1>
           <Carousel>
             <Carousel.Item>
-              {}
+              { }
               <div className="carouselItem">
                 <span className="carouselItem-text">
-                
-                <h3>Execellent Work! I had a very specific deadline and honestly I was asking a lot... they gave a very excellent price, and exceeded my expectations! Responsive, professional, amazing work! Would hire for future project! Hire them, you won't be disappointed!!</h3>
 
-                <h5> - Emmma G. (Video Editing)</h5>
+                  <h3>Execellent Work! I had a very specific deadline and honestly I was asking a lot... they gave a very excellent price, and exceeded my expectations! Responsive, professional, amazing work! Would hire for future project! Hire them, you won't be disappointed!!</h3>
+
+                  <h5> - Emmma G. (Video Editing)</h5>
                 </span>
-                
+
               </div>
             </Carousel.Item>
             <Carousel.Item>
-            <div className="carouselItem">
+              <div className="carouselItem">
                 <span className="carouselItem-text">
-                
-                <h3>These videos came out better than we were hoping! We are blown away with the quality of these videos and appreciate that this was able to help us with our vision and create something so professional and well executed. Thanks again!</h3>
 
-                <h5> - Zach P. (Video Production)</h5>
+                  <h3>These videos came out better than we were hoping! We are blown away with the quality of these videos and appreciate that this was able to help us with our vision and create something so professional and well executed. Thanks again!</h3>
+
+                  <h5> - Zach P. (Video Production)</h5>
                 </span>
-                
+
               </div>
             </Carousel.Item>
             <Carousel.Item>
-            <div className="carouselItem">
+              <div className="carouselItem">
                 <span className="carouselItem-text">
-                
-                <h3>Beige Cashmere LA paid close attention to what I needed from my photoshoot. They were professional in their approach and delivered the photos quickly with great quality.</h3>
 
-                <h5> - Ramtin N. (Portrait Photography)</h5>
+                  <h3>Beige Cashmere LA paid close attention to what I needed from my photoshoot. They were professional in their approach and delivered the photos quickly with great quality.</h3>
+
+                  <h5> - Ramtin N. (Portrait Photography)</h5>
                 </span>
-                
+
               </div>
             </Carousel.Item>
             <Carousel.Item>
-            <div className="carouselItem">
+              <div className="carouselItem">
                 <span className="carouselItem-text">
-                
-                <h3>Amazing customer service!!! Kawser picked up the phone QUICKLY, and was so warm and personable. He gave me pricing options that were very reasonable. The job was complete as promised on schedule, and the quality was fabulous. DEFINITELY recommend Beige Cashemre, and will definitely hire them again. Very happy!</h3>
 
-                <h5> - Samantha B. (Video Editing)</h5>
+                  <h3>Amazing customer service!!! Kawser picked up the phone QUICKLY, and was so warm and personable. He gave me pricing options that were very reasonable. The job was complete as promised on schedule, and the quality was fabulous. DEFINITELY recommend Beige Cashemre, and will definitely hire them again. Very happy!</h3>
+
+                  <h5> - Samantha B. (Video Editing)</h5>
                 </span>
-                
+
               </div>
             </Carousel.Item>
             <Carousel.Item>
-            <div className="carouselItem">
+              <div className="carouselItem">
                 <span className="carouselItem-text">
-                
-                <h3>Beige Cashmere was amazing. I had a last minute video that needed to be created within a few hours. He made it happen for me with ease. He was very professional and helpful. I will definitely use him again.</h3>
 
-                <h5> - Tamela B. (Video Editing)</h5>
+                  <h3>Beige Cashmere was amazing. I had a last minute video that needed to be created within a few hours. He made it happen for me with ease. He was very professional and helpful. I will definitely use him again.</h3>
+
+                  <h5> - Tamela B. (Video Editing)</h5>
                 </span>
-                
+
               </div>
-            </Carousel.Item> 
+            </Carousel.Item>
           </Carousel>
         </div>
       </div>

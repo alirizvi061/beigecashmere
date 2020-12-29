@@ -32,10 +32,11 @@ class NavMenu extends Component {
               <Nav.Link className='navButtons' href='/'>
                 HOME
               </Nav.Link>
-              {!window.location.search ?
-                <Nav.Link href='/projects?tab=projects'>VIDEO PRODUCTION</Nav.Link>
+              {/* {!window.location.search ?
+                <Nav.Link href='/videography'>VIDEO PRODUCTION</Nav.Link>
                 : null
-              }
+              } */}
+              <Nav.Link href='/videography'>VIDEO PRODUCTION</Nav.Link>
               <Nav.Link href='/photography'>PHOTOGRAPHY</Nav.Link>
               <NavDropdown className="dropDownSubMenu-showbox" title="OUR TEAM" id="basic-nav-dropdown">
                 <NavDropdown.Item className="dropDownSubMenu" href="/la">LOS ANGELES</NavDropdown.Item>

@@ -82,7 +82,7 @@ h1 {
   margin: 3% 10% 3% 10%;
 }
 .projectImage {
-  margin: 10px;
+  /* margin: 10px; */
   width: 98vw;
   display: flex;
   justify-content: center;

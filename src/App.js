@@ -25,7 +25,7 @@ export default class App extends Component {
           <Route exact path="/la" component={La} />
           <Route exact path="/chicago" component={Chicago} />
           <Route exact path="/newyork" component={Nyc} />
-          <Route exact path="/projects" component={Projects} />
+          <Route exact path="/videography" component={Projects} />
           <Route exact path="/photography" component={Photography} />
           <Form />
           <Footer />
