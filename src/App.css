@@ -468,3 +468,21 @@ button.accordion-active + .accordion-panel {
   padding: 10px 18px;
 }
 /*************** Accordion CSS Styles END ***************/
+
+.carouselItem {
+  display: flex;
+  margin-bottom: 94px;
+  border-radius: 15px;
+  border: 8px solid #9e8148;
+  /* width: 56vw !important; */
+  width: 78vw !important;
+  /* height: 211px !important; */
+  margin-left: 11vw;
+  padding: 25px;
+}
+
+.carouselItem-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

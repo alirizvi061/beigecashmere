@@ -2,10 +2,31 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import CompanyVideo from './videos/CompanyVideo';
 import history from '../../src/history';
+import { Carousel } from "react-bootstrap";
+
+
 
 
 class Home extends Component {
 
+
+  testimonial = [
+    {
+      testimonial: "Execellent Work! I had a very specific deadline and honestly I was asking a lot... they gave a very excellent price, and exceeded my expectations! Responsive, professional, amazing work! Would hire for future project! Hire them, you won't be disappointed!!",
+      name: "Emmma G.",
+      service: "Video Editing"
+    },
+    // {
+    //   name: "KIMBERLY REED",
+    //   title: "PROJECT MANAGER",
+    //   img: "Kimberly Reed Project Manager.JPG"
+    // },
+    // {
+    //   name: "MICHAEL EZRACHI",
+    //   title: "DIRECTOR OF PHOTOGRAPHY",
+    //   img: "Michael Ezrachi Director Of Photography.jpg"
+    // }
+  ];
 
   render() {
 
@@ -14,7 +35,7 @@ class Home extends Component {
       <div className="homePage">
         <img src="BCLogo.png" alt='' className="homeLogo" />
         <h1 className="introText">
-          YOUR DESTINATION FOR ALL YOUR VIDEO PRODUCTION & PHOTOGRAPHY NEEDS
+        AFFORDABLE HIGH-QUALITY VIDEO PRODUCTION & PHOTOGRAPHY
         </h1>
         <CompanyVideo />
         <div id="projectsScroll"><br />
@@ -71,6 +92,68 @@ class Home extends Component {
               NEW YORK
             </Link>
           </div>
+        </div>
+
+        <div> 
+          <h1>TESTIMONIALS</h1>
+          <Carousel>
+            <Carousel.Item>
+              {}
+              <div className="carouselItem">
+                <span className="carouselItem-text">
+                
+                <h3>Execellent Work! I had a very specific deadline and honestly I was asking a lot... they gave a very excellent price, and exceeded my expectations! Responsive, professional, amazing work! Would hire for future project! Hire them, you won't be disappointed!!</h3>
+
+                <h5> - Emmma G. (Video Editing)</h5>
+                </span>
+                
+              </div>
+            </Carousel.Item>
+            <Carousel.Item>
+            <div className="carouselItem">
+                <span className="carouselItem-text">
+                
+                <h3>These videos came out better than we were hoping! We are blown away with the quality of these videos and appreciate that this was able to help us with our vision and create something so professional and well executed. Thanks again!</h3>
+
+                <h5> - Zach P. (Video Production)</h5>
+                </span>
+                
+              </div>
+            </Carousel.Item>
+            <Carousel.Item>
+            <div className="carouselItem">
+                <span className="carouselItem-text">
+                
+                <h3>Beige Cashmere LA paid close attention to what I needed from my photoshoot. They were professional in their approach and delivered the photos quickly with great quality.</h3>
+
+                <h5> - Ramtin N. (Portrait Photography)</h5>
+                </span>
+                
+              </div>
+            </Carousel.Item>
+            <Carousel.Item>
+            <div className="carouselItem">
+                <span className="carouselItem-text">
+                
+                <h3>Amazing customer service!!! Kawser picked up the phone QUICKLY, and was so warm and personable. He gave me pricing options that were very reasonable. The job was complete as promised on schedule, and the quality was fabulous. DEFINITELY recommend Beige Cashemre, and will definitely hire them again. Very happy!</h3>
+
+                <h5> - Samantha B. (Video Editing)</h5>
+                </span>
+                
+              </div>
+            </Carousel.Item>
+            <Carousel.Item>
+            <div className="carouselItem">
+                <span className="carouselItem-text">
+                
+                <h3>Beige Cashmere was amazing. I had a last minute video that needed to be created within a few hours. He made it happen for me with ease. He was very professional and helpful. I will definitely use him again.</h3>
+
+                <h5> - Tamela B. (Video Editing)</h5>
+                </span>
+                
+              </div>
+            </Carousel.Item> 
+          </Carousel>
         </div>
       </div>
     );

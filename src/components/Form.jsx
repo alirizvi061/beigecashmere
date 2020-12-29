@@ -46,11 +46,13 @@ export default function Form() {
 
         <br />
 
+      
+
         <textarea type='text'
           placeholder='TELL US ABOUT YOUR PROJECT'
           name='Message' ></textarea>
 
-        <input type="submit" value={messageSent ? "Message Sent!" : "Send"} />
+        <input type="submit" value={messageSent ? "Thanks, We'll Reach Out Shortly!" : "Send"} />
       </form>
 
       </div>
