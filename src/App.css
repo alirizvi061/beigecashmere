@@ -9,6 +9,8 @@ html {
   color: #e1c48a;
   text-align: center;
   font-family: "Roboto Condensed", sans-serif;
+  scroll-behavior: smooth;
+
 }
 
 h1 {
