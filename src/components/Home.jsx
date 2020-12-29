@@ -21,11 +21,21 @@ class Home extends Component {
           <h1>PROJECTS</h1>
         </div>
         <div class="container" >
-          <img className="projectImage image" src="Home-page-projects-pic-min.png" alt="" />
+          <img className="projectImage image" src="homepage_videography.png" alt="" />
           <div class="overlay">
             <Link to="/projects" className="locationText">
               <div class="text">
-                <h1>VIEW OUR PROJECTS!</h1>
+                <h1>VIEW OUR VIDEO PROJECTS!</h1>
+              </div>
+            </Link>
+          </div>
+        </div>
+        <div class="container" >
+          <img className="projectImage image" src="homepage_photography.png" alt="" />
+          <div class="overlay">
+            <Link to="/photography" className="locationText">
+              <div class="text">
+                <h1>VIEW OUR PHOTO PROJECTS!</h1>
               </div>
             </Link>
           </div>
