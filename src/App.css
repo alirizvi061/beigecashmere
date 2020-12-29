@@ -68,6 +68,7 @@ h1 {
   color: black !important;
   position: fixed;
   width: 100vw;
+  
   top:0;
   display: flex;
   justify-content: center;
