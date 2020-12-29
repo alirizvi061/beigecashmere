@@ -27,7 +27,16 @@ h1 {
     width: 50%;
   }
   body {
-    margin-top: 50px;
+    margin-top: 100px;
+  }
+}
+
+@media (max-width: 1030px) {
+  .homeLogo {
+    width: 30%;
+  }
+  body {
+    margin-top: 100px;
   }
 }
 .locations {
@@ -54,12 +63,24 @@ h1 {
   color: black;
 }
 
+#callToActionButtonDiv {
+  background-color: #e1c48a !important;
+  color: black !important;
+  position: fixed;
+  width: 100vw;
+  top:0;
+  display: flex;
+  justify-content: center;
+  z-index: 1500;
+}
+
 .bookNowButton:hover,
-.navButtons:hover {
-  color: white;
+.navButtons:hover, #callToActionButtonDiv:hover {
+  color: white !important;
   text-decoration: none;
 }
-.bookNowButtonDiv:hover {
+
+.bookNowButtonDiv:hover{
   background-color: #e2b354;
   cursor: pointer;
   color: white;
@@ -196,7 +217,7 @@ h1 {
 }
  */
 
-.nav {
+.navbar {
   background: black !important;
   margin: 0;
 }
