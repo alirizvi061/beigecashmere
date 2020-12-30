@@ -1,4 +1,4 @@
-import React, {useState}from "react";
+import React, { useState } from "react";
 import emailjs from 'emailjs-com'
 import Mailto from "react-protected-mailto"
 
@@ -19,10 +19,10 @@ export default function Form() {
         console.log(error.text);
       });
     e.target.reset()
-    
+
   }
 
-  if(messageSent){
+  if (messageSent) {
     setTimeout(() => {
       setMessageSent(false)
     }, [2000])
@@ -31,40 +31,40 @@ export default function Form() {
   return (
     <div id="formScroll" className="form-div">
 
-    <div className='form'>
-    <h2>REQUEST A FREE QUOTE</h2>
-      <form className="contact-form" onSubmit={sendEmail}>
-        <input type="text" placeholder='NAME' name='Name' />
+      <div className='form'>
+        <h2>REQUEST A FREE QUOTE</h2>
+        <form className="contact-form" onSubmit={sendEmail}>
+          <input type="text" placeholder='NAME' name='Name' />
 
-        <br />
+          <br />
 
-        <input type='text' placeholder='EMAIL' name='Email' />
+          <input type='text' placeholder='EMAIL' name='Email' />
 
-        <br />
+          <br />
 
-        <input type='text' placeholder='PHONE' name='Phone' />
+          <input type='text' placeholder='PHONE' name='Phone' />
 
-        <br />
+          <br />
 
-      
 
-        <textarea type='text'
-          placeholder='TELL US ABOUT YOUR PROJECT'
-          name='Message' ></textarea>
 
-        <input type="submit" value={messageSent ? "Thanks, We'll Reach Out Shortly!" : "Send"} />
-      </form>
+          <textarea type='text'
+            placeholder='TELL US ABOUT YOUR PROJECT'
+            name='Message' ></textarea>
+
+          <input type="submit" value={messageSent ? "Thanks, We'll Reach Out Shortly!" : "Send"} />
+        </form>
 
       </div>
 
       <div div className="companyInfo">
         <h5>
-          CALL US: <Mailto tel='323-799-7217' /><br />
+          {/* CALL US: <Mailto tel='323-799-7217' /><br /> */}
           EMAIL US: <Mailto
             email='INFO@BEIGECASHMERE.COM'
             headers={
-              {subject:'Requesting a Quote'}
-            }/>
+              { subject: 'Requesting a Quote' }
+            } />
         </h5>
         <h5>24 HOURS / 7 DAYS A WEEK </h5>
         <h5>ADDRESS: 2411 WEST OLYMPIC BLVD. STE 5 LOS ANGELES, CA 90006 </h5>

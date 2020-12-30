@@ -13,7 +13,7 @@ class NavMenu extends Component {
     return (
       <div>
 
-        <Nav.Link fixed="top" id='callToActionButtonDiv' href='#formScroll'>BOOK NOW</Nav.Link>
+        <Nav.Link fixed="top" id='callToActionButtonDiv' href='#formScroll'>REQUEST A FREE QUOTE</Nav.Link>
 
         <Navbar
           data-spy='scroll'
@@ -29,7 +29,6 @@ class NavMenu extends Component {
               <img src='logoOnly.png' alt='' className='navLogo' />
             </div>
           </Link>
-
 
           <Navbar.Toggle aria-controls='basic-navbar-nav' />
           <Navbar.Collapse id='basic-navbar-nav'>
