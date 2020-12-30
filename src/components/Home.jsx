@@ -39,22 +39,18 @@ class Home extends Component {
         </h1>
         <CompanyVideo />
         <h3>ABOUT US</h3>
-        <h4 className='aboutBlurb'>
+        <hr style={{ width: "740px", border: "1px solid #e1c48a", marginTop: "0", marginBottom: "0" }} />
+        <h5 className='aboutBlurb'>
           At Beige Cashmere we specialize in affordable and on-demand video production and photography.
-
           From the initial conception of your vision to the finished project, we are with you every step of the way.
-
           Our mission is to transform the media and entertainment landscape through cultural diversity & creative empowerment.
-
           We have worked with a wide range of clients including influencers, major companies, startups, music artists, music labels, families & more.
-
           We have optimized our process to shoot and edit on demand content at the most competitive rates while meeting industry standards.
-
           Our Beige Excellence Promise ensures our client’s full satisfaction.
-
-        </h4>
-        <h3 className='aboutBlurb'>COVID-19 Precautions: </h3>
-        <h4 className='aboutBlurb'>As we navigate a global pandemic, we continue to follow the Covid-19 guidelines set by the CDC. To ensure the safety of our clients, talent and crew, we take our team’s temperature before they start working, require face masks, practice social distance, and sanitize all surfaces used on set. </h4>
+        </h5>
+        <h4 >COVID-19 Precautions: </h4>
+        <hr style={{ width: "740px", border: "1px solid #e1c48a", marginTop: "0", marginBottom: "0" }} />
+        <h5 className='aboutBlurb'>As we navigate a global pandemic, we continue to follow the Covid-19 guidelines set by the CDC. To ensure the safety of our clients, talent and crew, we take our team’s temperature before they start working, require face masks, practice social distance, and sanitize all surfaces used on set. </h5>
 
 
 
