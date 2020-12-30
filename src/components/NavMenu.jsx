@@ -24,11 +24,11 @@ class NavMenu extends Component {
           fixed="top"
           style={{ marginTop: "40px" }}
         >
-          <Link to='/'>
+          <a href='/'>
             <div>
               <img src='logoOnly.png' alt='' className='navLogo' />
             </div>
-          </Link>
+          </a>
 
           <Navbar.Toggle aria-controls='basic-navbar-nav' />
           <Navbar.Collapse id='basic-navbar-nav'>

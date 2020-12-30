@@ -432,6 +432,7 @@ input[type="submit"]:hover {
     flex-wrap: wrap;
     margin: 0;
   }
+
 }
 
 @media (max-width: 1000px) {
@@ -440,6 +441,7 @@ input[type="submit"]:hover {
     flex-direction: row;
     flex-wrap: wrap;
   }
+  
 }
 
 @media (max-width: 550px) {
@@ -447,6 +449,7 @@ input[type="submit"]:hover {
     display: flex;
     overflow: hidden;
   }
+  
 }
 
 /*************** Accordion CSS Styles START ***************/
@@ -493,6 +496,11 @@ button.accordion-active + .accordion-panel {
 }
 /*************** Accordion CSS Styles END ***************/
 
+.testimonialsDiv{
+margin-top: 5%;
+margin-bottom: 5%;
+}
+
 .carouselItem {
   display: flex;
   margin-bottom: 94px;
@@ -500,7 +508,7 @@ button.accordion-active + .accordion-panel {
   border: 8px solid #9e8148;
   /* width: 56vw !important; */
   width: 78vw !important;
-  /* height: 211px !important; */
+  /* height: 300px !important; */
   margin-left: 11vw;
   padding: 25px;
 }
@@ -510,3 +518,13 @@ button.accordion-active + .accordion-panel {
   flex-direction: column;
   justify-content: space-between;
 }
+
+@media screen and (max-width: 560px) {
+  .carouselItem{
+    height: 480px !important;
+  }
+  .carouselItem-text-h3{
+    font-size: 21px !important;
+  }
+}
+

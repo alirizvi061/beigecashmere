@@ -8,7 +8,7 @@ export default function Form() {
 
 
   function sendEmail(e) {
-    // console.log(e.currentTarget, "new new")
+    console.log(e.target, "new new")
     e.preventDefault();
 
     emailjs.sendForm('service_13bnb3e', 'template_kh5fogk', e.target, 'user_9EF7CbKJH32e0KnAqQOLa')
