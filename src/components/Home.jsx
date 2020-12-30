@@ -38,6 +38,31 @@ class Home extends Component {
           AFFORDABLE HIGH-QUALITY VIDEO PRODUCTION & PHOTOGRAPHY
         </h1>
         <CompanyVideo />
+        <h3>ABOUT US</h3>
+        <h4 className='aboutBlurb'>
+          At Beige Cashmere we specialize in affordable and on-demand video production and photography.
+
+          From the initial conception of your vision to the finished project, we are with you every step of the way.
+
+          Our mission is to transform the media and entertainment landscape through cultural diversity & creative empowerment.
+
+          We have worked with a wide range of clients including influencers, major companies, startups, music artists, music labels, families & more.
+
+          We have optimized our process to shoot and edit on demand content at the most competitive rates while meeting industry standards.
+
+          Our Beige Excellence Promise ensures our client’s full satisfaction.
+
+        </h4>
+        <h3 className='aboutBlurb'>COVID-19 Precautions: </h3>
+        <h4 className='aboutBlurb'>As we navigate a global pandemic, we continue to follow the Covid-19 guidelines set by the CDC. To ensure the safety of our clients, talent and crew, we take our team’s temperature before they start working, require face masks, practice social distance, and sanitize all surfaces used on set. </h4>
+
+
+
+        <div className="bookNowButtonDiv">
+          <a className="bookNowButton" href="#formScroll">BOOK NOW </a>
+        </div>
+
+
         <div id="projectsScroll"><br />
           <h1>PROJECTS</h1>
         </div>
@@ -46,7 +71,7 @@ class Home extends Component {
           <div class="overlay">
             <a href="/videography" className="locationText">
               <div class="text">
-                <h1>VIDEOGRAPHY</h1>
+                <h1>VIDEO PRODUCTION</h1>
               </div>
             </a>
           </div>
@@ -63,7 +88,7 @@ class Home extends Component {
         </div>
         <div id="locationsScroll"><br />
           <div className="bookNowButtonDiv">
-            <a className="bookNowButton" href="#formScroll">BOOK NOW </a>
+            <a className="bookNowButton" href="#formScroll">BOOK NOW</a>
           </div>
           <h1>LOCATIONS</h1>
         </div>
