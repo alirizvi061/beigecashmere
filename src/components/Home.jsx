@@ -39,18 +39,15 @@ class Home extends Component {
         </h1>
         <CompanyVideo />
         <h3>ABOUT US</h3>
-        <hr style={{ width: "740px", border: "1px solid #e1c48a", marginTop: "0", marginBottom: "0" }} />
-        <h5 className='aboutBlurb'>
-          At Beige Cashmere we specialize in affordable and on-demand video production and photography.
-          From the initial conception of your vision to the finished project, we are with you every step of the way.
-          Our mission is to transform the media and entertainment landscape through cultural diversity & creative empowerment.
-          We have worked with a wide range of clients including influencers, major companies, startups, music artists, music labels, families & more.
-          We have optimized our process to shoot and edit on demand content at the most competitive rates while meeting industry standards.
-          Our Beige Excellence Promise ensures our client’s full satisfaction.
+        <hr style={{ width: "50vw", border: "1px solid #e1c48a", marginTop: "0", marginBottom: "0" }} />
+        <h5 className='aboutBlurb' style={{ marginTop: "10px" }}>
+          At Beige Cashmere we specialize in affordable and on-demand video production and photography. Our mission is to transform the media and entertainment landscape through cultural diversity & creative empowerment. We have worked with a wide range of clients including influencers, major companies, startups, music artists/labels, families & more.
         </h5>
-        <h4 >COVID-19 Precautions: </h4>
-        <hr style={{ width: "740px", border: "1px solid #e1c48a", marginTop: "0", marginBottom: "0" }} />
-        <h5 className='aboutBlurb'>As we navigate a global pandemic, we continue to follow the Covid-19 guidelines set by the CDC. To ensure the safety of our clients, talent and crew, we take our team’s temperature before they start working, require face masks, practice social distance, and sanitize all surfaces used on set. </h5>
+        <h5>Our Beige Excellence Promise ensures our client’s full satisfaction 100% of the time.</h5>
+
+        <h6 style={{ marginTop: "30px" }}>COVID-19 Precautions: </h6>
+        <hr style={{ width: "30vw", border: "1px solid #e1c48a", marginTop: "0", marginBottom: "0" }} />
+        <p className='aboutBlurb' style={{ marginTop: "10px" }}>As we navigate a global pandemic, we continue to follow the Covid-19 guidelines set by the CDC. To ensure the safety of our clients, talent and crew, we take our team’s temperature before they start working, require face masks, practice social distance, and sanitize all surfaces used on set. </p>
 
 
 
@@ -124,9 +121,9 @@ class Home extends Component {
               <div className="carouselItem">
                 <span className="carouselItem-text">
 
-                  <h3 className="carouselItem-text-h3">Execellent Work! I had a very specific deadline and honestly I was asking a lot... they gave a very excellent price, and exceeded my expectations! Responsive, professional, amazing work! Would hire for future project! Hire them, you won't be disappointed!!</h3>
+                  <h3 className="carouselItem-text-h3">The Beige Cashmere team worked on an impossible schedule and managed to produce and edit our City's annual address seamlessly. Their drone footage is immaculate and the editing quality top tier. We are so thankful to have found them. Thanks!</h3>
 
-                  <h5 className="carouselItem-text-h3"> - Emmma G. (Video Editing)</h5>
+                  <h5 className="carouselItem-text-h3"> - Ericka M. (Video Production)</h5>
                 </span>
 
               </div>
@@ -157,9 +154,9 @@ class Home extends Component {
               <div className="carouselItem">
                 <span className="carouselItem-text">
 
-                  <h3 className="carouselItem-text-h3">Amazing customer service!!! Kawser picked up the phone QUICKLY, and was so warm and personable. He gave me pricing options that were very reasonable. The job was complete as promised on schedule, and the quality was fabulous. DEFINITELY recommend Beige Cashemre, and will definitely hire them again. Very happy!</h3>
+                  <h3 className="carouselItem-text-h3">BC was awesome to work worth. Called them last minute and they were able to make it happen on very short notice... I will definitely be using them again as the quality of the film, customer service, and the ease of setting this project up were all SPECTACULAR! Thanks again</h3>
 
-                  <h5 className="carouselItem-text-h3"> - Samantha B. (Video Editing)</h5>
+                  <h5 className="carouselItem-text-h3"> - Ryan C.  (Video Production)</h5>
                 </span>
 
               </div>
