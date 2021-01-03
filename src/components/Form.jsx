@@ -52,9 +52,6 @@ export default function Form() {
             placeholder='TELL US ABOUT YOUR PROJECT'
             name='Message' ></textarea>
 
-          <label>Attach file:</label>
-          <input type="file" name="my_file" />
-
           <input type="submit" value={messageSent ? "Thanks, We'll Reach Out Shortly!" : "Send"} />
         </form>
 
