@@ -11,7 +11,7 @@ export default function Form() {
     console.log(e.target, "new new")
     e.preventDefault();
 
-    emailjs.sendForm('service_13bnb3e', 'template_kh5fogk', e.target, 'user_9EF7CbKJH32e0KnAqQOLa')
+    emailjs.sendForm('service_13bnb3e', 'template_kh5fogk', e.target, 'user_9EF7CbKJH32e0KnAqQOLa', this)
       .then((result) => {
         setMessageSent(true)
         console.log(result.text);
@@ -21,6 +21,8 @@ export default function Form() {
     e.target.reset()
 
   }
+
+
 
   if (messageSent) {
     setTimeout(() => {
@@ -33,7 +35,7 @@ export default function Form() {
 
       <div className='form'>
         <h2>REQUEST A FREE QUOTE</h2>
-        <form className="contact-form" onSubmit={sendEmail}>
+        <form className="contact-form" enctype="multipart/form-data" method="post" onSubmit={sendEmail}>
           <input type="text" placeholder='NAME' name='Name' />
 
           <br />
@@ -49,6 +51,9 @@ export default function Form() {
           <textarea type='text'
             placeholder='TELL US ABOUT YOUR PROJECT'
             name='Message' ></textarea>
+
+          <label>Attach file:</label>
+          <input type="file" name="my_file" />
 
           <input type="submit" value={messageSent ? "Thanks, We'll Reach Out Shortly!" : "Send"} />
         </form>
