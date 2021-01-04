@@ -44,6 +44,8 @@ class NavMenu extends Component {
                 <NavDropdown.Item className="dropDownSubMenu" href="/chicago">CHICAGO</NavDropdown.Item>
                 <NavDropdown.Divider />
                 <NavDropdown.Item className="dropDownSubMenu" href="/newyork">NEW YORK</NavDropdown.Item>
+                <NavDropdown.Divider />
+                <NavDropdown.Item className="dropDownSubMenu" href="/careers">CAREERS</NavDropdown.Item>
               </NavDropdown>
               <Nav.Link href='#formScroll'>BOOK NOW</Nav.Link>
             </Nav>
