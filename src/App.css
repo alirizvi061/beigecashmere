@@ -14,7 +14,7 @@ html {
 }
 
 h1 {
-  margin: 40px;
+  margin: 6% 0 4% 0;
 }
 
 /* MAIN - HOME */
@@ -526,5 +526,45 @@ margin-bottom: 5%;
   .carouselItem-text-h3{
     font-size: 21px !important;
   }
+}
+
+
+
+/************ CAREERS **************/
+.careers-div{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+}
+
+.careers-jobs-div, .careers-internships-div{
+  border: 1px solid #e1c48a;
+  padding: 2%;
+  width: 45vw;
+  border-radius: 10px;
+  margin: 2%;
+}
+
+@media screen and (max-width: 560px) {
+ .careers-div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+ }
+ .careers-jobs-div, .careers-internships-div{
+  border: 1px solid #e1c48a;
+  padding: 2%;
+  width: 95vw;
+}
+
+}
+
+.careers-emailus-text{
+  display: flex;
+  justify-content: center;
+  width: 90vw;
+  margin: 5%;
 }
 

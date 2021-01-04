@@ -11,6 +11,7 @@ import Form from './components/Form';
 import Footer from './components/Footer';
 import NavMenu from './components/NavMenu';
 import Photography from './components/Photography';
+import Careers from './components/Careers';
 
 
 export default class App extends Component {
@@ -27,6 +28,7 @@ export default class App extends Component {
           <Route exact path="/newyork" component={Nyc} />
           <Route exact path="/videography" component={Projects} />
           <Route exact path="/photography" component={Photography} />
+          <Route exact path="/careers" component={Careers} />
           <Form />
           <Footer />
         </BrowserRouter>

@@ -9,28 +9,8 @@ import { Carousel } from "react-bootstrap";
 
 class Home extends Component {
 
-
-  testimonial = [
-    {
-      testimonial: "Execellent Work! I had a very specific deadline and honestly I was asking a lot... they gave a very excellent price, and exceeded my expectations! Responsive, professional, amazing work! Would hire for future project! Hire them, you won't be disappointed!!",
-      name: "Emmma G.",
-      service: "Video Editing"
-    },
-    // {
-    //   name: "KIMBERLY REED",
-    //   title: "PROJECT MANAGER",
-    //   img: "Kimberly Reed Project Manager.JPG"
-    // },
-    // {
-    //   name: "MICHAEL EZRACHI",
-    //   title: "DIRECTOR OF PHOTOGRAPHY",
-    //   img: "Michael Ezrachi Director Of Photography.jpg"
-    // }
-  ];
-
   render() {
 
-    console.log(this.state)
     return (
       <div className="homePage">
         <img src="BCLogo.png" alt='' className="homeLogo" />
