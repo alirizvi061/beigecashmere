@@ -20,6 +20,7 @@ After the initial build, the website was sent to the client for review with user
 - HTML
 - CSS
 - ReactJS
+- EmailJS
 - Heroku
 - GitHub
 - Vimeo API
