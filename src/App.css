@@ -262,8 +262,6 @@ h1 {
 }
 
 .form {
-  /* margin: 40px;
-  margin-left: 8%; */
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -357,7 +355,6 @@ input[type="submit"] {
   display: flex;
   align-items: flex-start;
   height: 30px;
-  /* width: 60px; */
   border-radius: 5px;
   border: none;
 }
@@ -395,7 +392,6 @@ input[type="submit"]:hover {
   width: 80%;
   padding-bottom: 56.25%;
   height: 0;
-  /* margin: 0 10% 0 10%; */
 }
 .iframe-container iframe {
   position: absolute;
@@ -484,7 +480,6 @@ input[type="submit"]:hover {
 
 .accordion-panel {
   padding: 0px 18px;
-  /* background-color: white; */
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out, padding 0.1s ease-out;
@@ -506,9 +501,7 @@ margin-bottom: 5%;
   margin-bottom: 94px;
   border-radius: 15px;
   border: 8px solid #9e8148;
-  /* width: 56vw !important; */
   width: 78vw !important;
-  /* height: 300px !important; */
   margin-left: 11vw;
   padding: 25px;
 }
