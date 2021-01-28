@@ -4,11 +4,6 @@ import CompanyVideo from './videos/CompanyVideo';
 import history from '../../src/history';
 import { Carousel } from "react-bootstrap";
 
-
-
-
-
-
 class Home extends Component {
 
   render() {

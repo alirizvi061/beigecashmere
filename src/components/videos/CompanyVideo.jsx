@@ -5,7 +5,9 @@ function CompanyVideo() {
         <div
             className="iframe-container"
         >
-            <iframe title="compnay video" src="https://player.vimeo.com/video/396879856" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+            <video style={{ width: '100vw', margin: '0' }} loop autoPlay muted id='vid'>
+                <source src="BCIntroVideo.mp4" type="video/mp4" />
+            </video>
         </div>
     )
 }
