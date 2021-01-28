@@ -7,6 +7,8 @@ import { Carousel } from "react-bootstrap";
 
 
 
+
+
 class Home extends Component {
 
   render() {
