@@ -59,7 +59,9 @@ export default function Form() {
 
       <div div className="companyInfo">
         <h5>
-          {/* CALL US: <Mailto tel='323-799-7217' /><br /> */}
+          CALL US: <Mailto tel='310-800-1203' />
+        </h5>
+        <h5>
           EMAIL US: <Mailto
             email='INFO@BEIGECASHMERE.COM'
             headers={

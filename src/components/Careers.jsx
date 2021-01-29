@@ -1,10 +1,12 @@
 import React from 'react'
+import CareersVideo from './videos/CareersVideo'
 import Mailto from "react-protected-mailto"
 
 function Careers() {
     return (
         <div>
             <h1>CAREERS</h1>
+            <CareersVideo />
 
             <div className="careers-div">
                 <div className="careers-jobs-div">
