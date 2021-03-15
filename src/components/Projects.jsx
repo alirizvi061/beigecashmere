@@ -137,7 +137,7 @@ class Projects extends Component {
     return (
       <div>
 
-        <h1>VIDEO PRODUCTION</h1>
+        <h1 class="mainHeading">VIDEO PRODUCTION</h1>
 
         <button
           className='accordion text-center'
@@ -255,7 +255,7 @@ class Projects extends Component {
             );
           })}
         </div>
-      </div>
+      </div >
     );
   }
 }

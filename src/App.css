@@ -14,7 +14,11 @@ html {
 }
 
 h1 {
-  margin: 10% 0 4% 0;
+  margin: 6% 0 4% 0;
+}
+
+.mainHeading {
+  margin: 8% 0 4% 0 !important;
 }
 
 /* MAIN - HOME */

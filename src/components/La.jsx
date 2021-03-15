@@ -5,7 +5,7 @@ class La extends Component {
     render() {
         return (
             <div>
-                <h1>LOS ANGELES</h1>
+                <h1 class="mainHeading">LOS ANGELES</h1>
                 <h3>ABOUT US</h3>
 
                 <h5 className='aboutBlurb'>WE ARE BEIGE CASHMERE.

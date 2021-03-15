@@ -37,7 +37,7 @@ class Chicago extends Component {
         ];
         return (
             <div>
-                <h1>CHICAGO</h1>
+                <h1 class="mainHeading">CHICAGO</h1>
                 <h3>ABOUT US</h3>
 
                 <h5 className='aboutBlurb'>WE ARE BEIGE CASHMERE.

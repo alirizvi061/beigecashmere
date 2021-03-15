@@ -10,7 +10,7 @@ class Home extends Component {
 
     return (
       <div className="homePage">
-        <img src="BCLogo.png" alt='' className="homeLogo" />
+        <img src="BCLogo.png" alt='Beige Cashmere Logo' className="homeLogo" />
         <h1 className="introText">
           AFFORDABLE HIGH-QUALITY VIDEO PRODUCTION & PHOTOGRAPHY
         </h1>

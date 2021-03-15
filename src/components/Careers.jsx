@@ -5,7 +5,7 @@ import Mailto from "react-protected-mailto"
 function Careers() {
     return (
         <div>
-            <h1>CAREERS</h1>
+            <h1 class="mainHeading">CAREERS</h1>
             <CareersVideo />
 
             <div className="careers-div">
