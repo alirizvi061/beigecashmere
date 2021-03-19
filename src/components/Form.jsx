@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import emailjs from 'emailjs-com'
 import Mailto from "react-protected-mailto"
+import ReactGA from "react-ga"
 
 export default function Form() {
 
@@ -8,6 +9,13 @@ export default function Form() {
 
 
   function sendEmail(e) {
+    ReactGA.initialize("UA-181230328-1")
+    ReactGA.event({
+      category: 'User',
+      action: 'Sent message',
+      label: "Requested Quote"
+    });
+
     console.log(e.target, "new new")
     e.preventDefault();
 
@@ -22,13 +30,22 @@ export default function Form() {
 
   }
 
-
-
   if (messageSent) {
     setTimeout(() => {
       setMessageSent(false)
     }, [2000])
   }
+
+  // function testClick() {
+  // ReactGA.initialize("UA-181230328-1")
+  // ReactGA.event({
+  //   category: 'User',
+  //   action: 'Sent message',
+  //   label: "Requested Quote"
+  // });
+  // console.log("Test Button Clicked")
+  // }
+
 
   return (
     <div id="formScroll" className="form-div">
@@ -55,6 +72,7 @@ export default function Form() {
           <input type="submit" value={messageSent ? "Thanks, We'll Reach Out Shortly!" : "Send"} />
         </form>
 
+        {/* <button onClick={testClick}>Test</button> */}
       </div>
 
       <div div className="companyInfo">

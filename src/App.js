@@ -12,15 +12,23 @@ import Footer from './components/Footer';
 import NavMenu from './components/NavMenu';
 import Photography from './components/Photography';
 import Careers from './components/Careers';
+import ReactGA from "react-ga"
+import RouteChangeTracker from "./components/RouteChangeTracker"
 
+
+// function initializeAnalytics(){
+//   ReactGA.initialize("UA-181230328-1")
+//   ReactGA.pageview('/HomePage')
+// }
 
 export default class App extends Component {
 
-  
   render() {
+    // initializeAnalytics()
     return (
       <div>
         <BrowserRouter>
+        <RouteChangeTracker />
         {<NavMenu />}
           <Route exact path="/" component={Home} />
           <Route exact path="/la" component={La} />
