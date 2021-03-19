@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { BookNowClick } from "./BookNowClick"
 // import Addley from "../../public/teamLA/Addley Saimbert Director.jpg"
 
 class Nyc extends Component {
@@ -39,7 +40,7 @@ class Nyc extends Component {
         <h5 className='aboutBlurb'>GET IN TOUCH AND LET’S SHIFT YOUR VISION TO REALITY. </h5>
 
         <div className="bookNowButtonDiv">
-          <a className="bookNowButton" href="#formScroll">BOOK NOW </a>
+          <a onClick={BookNowClick} className="bookNowButton" href="#formScroll">BOOK NOW </a>
         </div>
 
 

@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import CompanyVideo from './videos/CompanyVideo';
 import history from '../../src/history';
 import { Carousel } from "react-bootstrap";
+import { BookNowClick } from "./BookNowClick"
 
 class Home extends Component {
 
@@ -29,7 +30,7 @@ class Home extends Component {
 
 
         <div className="bookNowButtonDiv">
-          <a className="bookNowButton" href="#formScroll">BOOK NOW </a>
+          <a onClick={BookNowClick} className="bookNowButton" href="#formScroll">BOOK NOW </a>
         </div>
 
 
@@ -57,9 +58,9 @@ class Home extends Component {
           </div>
         </div>
         <div id="locationsScroll"><br />
-          <div className="bookNowButtonDiv">
+          {/* <div className="bookNowButtonDiv">
             <a className="bookNowButton" href="#formScroll">BOOK NOW</a>
-          </div>
+          </div> */}
           <h1>LOCATIONS</h1>
         </div>
         <div className="locations">
