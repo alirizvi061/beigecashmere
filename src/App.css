@@ -17,11 +17,15 @@ h1 {
   margin: 6% 0 4% 0;
 }
 
+.mainHeading {
+  margin: 8% 0 4% 0 !important;
+}
+
 /* MAIN - HOME */
 
 .homeLogo {
-  width: 20%;
-  margin: 5%;
+  width: 35%;
+  margin: 10%;
 }
 
 @media (max-width: 1000px) {
@@ -35,7 +39,7 @@ h1 {
 
 @media (max-width: 1030px) {
   .homeLogo {
-    width: 30%;
+    width: 50%;
   }
   body {
     margin-top: 100px;

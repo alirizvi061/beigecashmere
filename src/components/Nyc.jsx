@@ -22,7 +22,7 @@ class Nyc extends Component {
     ];
     return (
       <div>
-        <h1>NEW YORK</h1>
+        <h1 class="mainHeading">NEW YORK</h1>
         <h3>ABOUT US</h3>
 
         <h5 className='aboutBlurb'>WE ARE BEIGE CASHMERE.

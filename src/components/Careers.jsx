@@ -1,11 +1,22 @@
 import React from 'react'
 import CareersVideo from './videos/CareersVideo'
 import Mailto from "react-protected-mailto"
+import ReactGA from "react-ga"
 
 function Careers() {
+
+    function careersEmailClicked() {
+        ReactGA.event({
+            category: 'User',
+            action: 'User Clicked Careers Email Link',
+            label: "Careers Email Link Clicked"
+        });
+        // console.log("User Clicked On email")
+    }
+
     return (
         <div>
-            <h1>CAREERS</h1>
+            <h1 class="mainHeading">CAREERS</h1>
             <CareersVideo />
 
             <div className="careers-div">
@@ -46,11 +57,12 @@ function Careers() {
 
                 </div>
                 <div className="careers-emailus-text">
-                    <h4 >If you are interested in applying for a position, please email us with an attached resume at <Mailto
-                        email='INFO@BEIGECASHMERE.COM'
-                        headers={
-                            { subject: 'Applying for Position' }
-                        } />
+                    <h4 >If you are interested in applying for a position, please email us with an attached resume at
+                        <h4 onClick={careersEmailClicked}><Mailto
+                            email='INFO@BEIGECASHMERE.COM'
+                            headers={
+                                { subject: 'Applying for Position' }
+                            } /></h4>
 
                     </h4>
                 </div>

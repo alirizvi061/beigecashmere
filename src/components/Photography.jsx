@@ -85,7 +85,7 @@ class Photography extends Component {
         return (
             <div>
 
-                <h1>PHOTOGRAPHY</h1>
+                <h1 class="mainHeading">PHOTOGRAPHY</h1>
 
                 <button
                     className='accordion text-center'
