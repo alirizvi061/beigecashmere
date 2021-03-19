@@ -16,7 +16,7 @@ export default function Form() {
       label: "Requested Quote"
     });
 
-    console.log(e.target, "new new")
+    // console.log(e.target, "new new")
     e.preventDefault();
 
     emailjs.sendForm('service_13bnb3e', 'template_kh5fogk', e.target, 'user_9EF7CbKJH32e0KnAqQOLa', this)
@@ -30,6 +30,27 @@ export default function Form() {
 
   }
 
+  function clickedContactInfo(param) {
+    ReactGA.initialize("UA-181230328-1")
+
+    // console.log(param)
+    if (param === "email") {
+      ReactGA.event({
+        category: 'User',
+        action: 'User Clicked Email Link',
+        label: "Email Link Clicked"
+      });
+      // console.log("User Clicked On email")
+    } else {
+      ReactGA.event({
+        category: 'User',
+        action: 'User Clicked Phone Link',
+        label: "Phone Link Clicked"
+      });
+      // console.log("User Clicked On Phone")
+    }
+
+  }
   if (messageSent) {
     setTimeout(() => {
       setMessageSent(false)
@@ -37,13 +58,13 @@ export default function Form() {
   }
 
   // function testClick() {
-  // ReactGA.initialize("UA-181230328-1")
-  // ReactGA.event({
-  //   category: 'User',
-  //   action: 'Sent message',
-  //   label: "Requested Quote"
-  // });
-  // console.log("Test Button Clicked")
+  //   ReactGA.initialize("UA-181230328-1")
+  //   ReactGA.event({
+  //     category: 'User',
+  //     action: 'Sent message',
+  //     label: "Requested Quote"
+  //   });
+  //   console.log("Test Button Clicked")
   // }
 
 
@@ -76,10 +97,10 @@ export default function Form() {
       </div>
 
       <div div className="companyInfo">
-        <h5>
+        <h5 onClick={() => { clickedContactInfo('phone') }}>
           CALL US: <Mailto tel='310-800-1203' />
         </h5>
-        <h5>
+        <h5 onClick={() => { clickedContactInfo('email') }}>
           EMAIL US: <Mailto
             email='INFO@BEIGECASHMERE.COM'
             headers={
