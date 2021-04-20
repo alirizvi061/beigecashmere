@@ -16,7 +16,6 @@ export default function Form() {
       label: "Requested Quote"
     });
 
-    // console.log(e.target, "new new")
     e.preventDefault();
 
     emailjs.sendForm('service_13bnb3e', 'template_kh5fogk', e.target, 'user_9EF7CbKJH32e0KnAqQOLa', this)
@@ -33,21 +32,18 @@ export default function Form() {
   function clickedContactInfo(param) {
     ReactGA.initialize("UA-181230328-1")
 
-    // console.log(param)
     if (param === "email") {
       ReactGA.event({
         category: 'User',
         action: 'User Clicked Email Link',
         label: "Email Link Clicked"
       });
-      // console.log("User Clicked On email")
     } else {
       ReactGA.event({
         category: 'User',
         action: 'User Clicked Phone Link',
         label: "Phone Link Clicked"
       });
-      // console.log("User Clicked On Phone")
     }
 
   }
@@ -56,16 +52,6 @@ export default function Form() {
       setMessageSent(false)
     }, [2000])
   }
-
-  // function testClick() {
-  //   ReactGA.initialize("UA-181230328-1")
-  //   ReactGA.event({
-  //     category: 'User',
-  //     action: 'Sent message',
-  //     label: "Requested Quote"
-  //   });
-  //   console.log("Test Button Clicked")
-  // }
 
 
   return (
@@ -93,12 +79,11 @@ export default function Form() {
           <input type="submit" value={messageSent ? "Thanks, We'll Reach Out Shortly!" : "Send"} />
         </form>
 
-        {/* <button onClick={testClick}>Test</button> */}
       </div>
 
       <div div className="companyInfo">
         <h5 onClick={() => { clickedContactInfo('phone') }}>
-          CALL US: <Mailto tel='310-800-1203' />
+          CALL US: <Mailto tel='323-799-7217' />
         </h5>
         <h5 onClick={() => { clickedContactInfo('email') }}>
           EMAIL US: <Mailto
@@ -108,7 +93,7 @@ export default function Form() {
             } />
         </h5>
         <h5>24 HOURS / 7 DAYS A WEEK </h5>
-        <h5>ADDRESS: 2411 WEST OLYMPIC BLVD. STE 5 LOS ANGELES, CA 90006 </h5>
+        <h5>ADDRESS: 148 BLEECKER STREET APT #2G BROOKLYN, NY 11221</h5>
       </div>
 
 

@@ -59,7 +59,7 @@ function Careers() {
                 <div className="careers-emailus-text">
                     <h4 >If you are interested in applying for a position, please email us with an attached resume at
                         <h4 onClick={careersEmailClicked}><Mailto
-                            email='INFO@BEIGECASHMERE.COM'
+                            email='CAREERS@BEIGECASHMERE.COM'
                             headers={
                                 { subject: 'Applying for Position' }
                             } /></h4>
