@@ -25,7 +25,7 @@ h1 {
 
 .homeLogo {
   width: 35%;
-  margin: 10%;
+  margin: 10% 10% 0% 10%;
 }
 
 @media (max-width: 1000px) {
@@ -110,7 +110,6 @@ h1 {
   margin: 3% 10% 3% 10%;
 }
 .projectImage {
-  /* margin: 10px; */
   width: 98vw;
   display: flex;
   justify-content: center;
@@ -215,14 +214,6 @@ h1 {
 }
 /* NAV */
 
-/* .dropDownSubMenu{
-  background: #e1c48a !important;
-  color: black;
-}
-.dropDownSubMenu-showbox{
-  background:  #e1c48a  !important;
-}
- */
 
 .navbar {
   background: black !important;

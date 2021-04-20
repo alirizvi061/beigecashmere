@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import { Nav, Navbar, NavDropdown, } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Link } from "react-router-dom";
 import "../App.css";
 import ReactGA from "react-ga"
 
@@ -18,7 +17,6 @@ class NavMenu extends Component {
         action: 'User Clicked Request A Free Quote Button',
         label: "User Viewed Quote Form"
       });
-      console.log("User Clicked Request A Free Quote Button")
     }
     return (
       <div>

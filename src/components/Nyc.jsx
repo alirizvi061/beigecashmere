@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { BookNowClick } from "./BookNowClick"
-// import Addley from "../../public/teamLA/Addley Saimbert Director.jpg"
 
 class Nyc extends Component {
   render() {

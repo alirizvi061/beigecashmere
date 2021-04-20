@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-const Spinner = require('react-spinkit');
 
 class Photography extends Component {
 

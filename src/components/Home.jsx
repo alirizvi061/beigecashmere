@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
 import CompanyVideo from './videos/CompanyVideo';
-import history from '../../src/history';
 import { Carousel } from "react-bootstrap";
 import { BookNowClick } from "./BookNowClick"
 
@@ -12,10 +10,10 @@ class Home extends Component {
     return (
       <div className="homePage">
         <img src="BCLogo.png" alt='Beige Cashmere Logo' className="homeLogo" />
+        <CompanyVideo />
         <h1 className="introText">
           AFFORDABLE HIGH-QUALITY VIDEO PRODUCTION & PHOTOGRAPHY
         </h1>
-        <CompanyVideo />
         <h3>ABOUT US</h3>
         <hr style={{ width: "50vw", border: "1px solid #e1c48a", marginTop: "0", marginBottom: "0" }} />
         <h5 className='aboutBlurb' style={{ marginTop: "10px" }}>
@@ -58,9 +56,6 @@ class Home extends Component {
           </div>
         </div>
         <div id="locationsScroll"><br />
-          {/* <div className="bookNowButtonDiv">
-            <a className="bookNowButton" href="#formScroll">BOOK NOW</a>
-          </div> */}
           <h1>LOCATIONS</h1>
         </div>
         <div className="locations">
