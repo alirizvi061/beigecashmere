@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import emailjs from 'emailjs-com'
 import Mailto from "react-protected-mailto"
 import ReactGA from "react-ga"
@@ -7,6 +7,9 @@ export default function Form() {
 
   const [messageSent, setMessageSent] = useState(false)
 
+  useEffect(() => {
+    document.getElementById('thankYouModal').style.display = 'none'
+  }, [])
 
   function sendEmail(e) {
     ReactGA.initialize("UA-181230328-1")
@@ -48,15 +51,30 @@ export default function Form() {
 
   }
   if (messageSent) {
-    setTimeout(() => {
-      setMessageSent(false)
-    }, [2000])
+
+
   }
 
+  function thankYouModalFunction() {
+    setMessageSent(true)
+    console.log(messageSent)
+    if (messageSent !== true) {
+      document.getElementById('thankYouModal').style.display = 'block'
+    }
+
+    setTimeout(() => {
+      document.getElementById('thankYouModal').style.display = 'none'
+      setMessageSent(false)
+    }, [2000])
+
+    console.log("clicking this now")
+  }
 
   return (
     <div id="formScroll" className="form-div">
 
+
+      <h1 id="thankYouModal">Thank you modal!</h1>
       <div className='form'>
         <h2>REQUEST A FREE QUOTE</h2>
         <form className="contact-form" enctype="multipart/form-data" method="post" onSubmit={sendEmail}>
@@ -76,9 +94,9 @@ export default function Form() {
             placeholder='TELL US ABOUT YOUR PROJECT'
             name='Message' ></textarea>
 
-          <input type="submit" value={messageSent ? "Thanks, We'll Reach Out Shortly!" : "Send"} />
+          {/* <input type="submit" value={messageSent ? "Thanks, We'll Reach Out Shortly!" : "Send"} /> */}
         </form>
-
+        <button type="submit" onClick={thankYouModalFunction}></button>
       </div>
 
       <div div className="companyInfo">
