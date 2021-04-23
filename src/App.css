@@ -29,6 +29,7 @@ h1 {
 }
 
 @media (max-width: 1000px) {
+  
   .homeLogo {
     width: 50%;
   }
@@ -38,6 +39,7 @@ h1 {
 }
 
 @media (max-width: 1030px) {
+  
   .homeLogo {
     width: 50%;
   }
@@ -242,6 +244,51 @@ h1 {
 
 /* FORM  */
 
+.thankYouModalClass{
+  display: flex;
+  position: fixed;
+  z-index: 16;
+  padding: 2vw;
+  left: 30vw;
+  top: 21vw;
+  width: 40vw;
+  overflow: hidden;
+  background-color: #E1C494;
+  color: black;
+  border-radius: 4vw;
+}
+
+/* SMALL PHONE SIZE */
+@media only screen 
+and (min-device-width : 320px) {
+  /* Styles */
+  .thankYouModalClass{
+    width: 60vw;
+    top: 50vw;
+    left: 20vw;
+    margin: 0;
+  }
+ 
+}
+/* IPHONE SIZE */
+@media only screen and (min-device-width : 500px) {
+  .thankYouModalClass{
+    width: 60vw;
+    top: 17vw;
+    left: 20vw;
+    margin: 0;
+  }
+}
+/* IPAD size  */
+@media only screen
+and (max-device-width: 1366px){
+  .thankYouModalClass{
+    width: 60vw;
+    top: 30%;
+    left: 20vw;
+    margin: 0;
+  }
+}
 .form-div {
   display: flex;
   flex-direction: row;
@@ -264,6 +311,8 @@ h1 {
 }
 
 @media only screen and (max-width: 850px) {
+ 
+
   .form-div {
     display: flex;
     flex-direction: row;
@@ -278,7 +327,29 @@ h1 {
     align-items: center;
   }
 }
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+  /* Styles */
+  /* .thankYouModalClass{
+    display: flex;
+    position: fixed;
+    z-index: 16;
+    padding: 2vw;
+    left: 30vw;
+    top: 30vw;
+    width: 40vw;
+    overflow: auto;
+    background-color: #E1C494;
+    color: black;
+    border-radius: 4vw;
+  } */
+}
+
 @media only screen and (max-width: 600px) {
+
+
   .form-div {
     display: flex;
     flex-direction: row;
@@ -295,6 +366,21 @@ h1 {
 }
 
 @media only screen and (max-width: 350px) {
+
+  /* .thankYouModalClass{
+    display: flex;
+    position: fixed;
+    z-index: 16;
+    padding: 2vw;
+    left: 30vw;
+    top: 20vw;
+    width: 40vw;
+    overflow: auto;
+    background-color: #E1C494;
+    color: black;
+    border-radius: 4vw;
+  } */
+
   .form-div {
     display: flex;
     flex-direction: row;

@@ -73,8 +73,10 @@ export default function Form() {
   return (
     <div id="formScroll" className="form-div">
 
+      <div id="thankYouModal" class="thankYouModalClass">
+        <h1>Thank you, our team will be with you shortly!</h1>
+      </div>
 
-      <h1 id="thankYouModal">Thank you modal!</h1>
       <div className='form'>
         <h2>REQUEST A FREE QUOTE</h2>
         <form className="contact-form" enctype="multipart/form-data" method="post" onSubmit={sendEmail}>
@@ -94,9 +96,9 @@ export default function Form() {
             placeholder='TELL US ABOUT YOUR PROJECT'
             name='Message' ></textarea>
 
-          {/* <input type="submit" value={messageSent ? "Thanks, We'll Reach Out Shortly!" : "Send"} /> */}
+          <input type="submit" onClick={thankYouModalFunction} />
         </form>
-        <button type="submit" onClick={thankYouModalFunction}></button>
+        {/* <button type="submit" onClick={thankYouModalFunction}></button> TEST BUTTON*/}
       </div>
 
       <div div className="companyInfo">
