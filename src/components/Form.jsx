@@ -113,7 +113,7 @@ export default function Form() {
             } />
         </h5>
         <h5>24 HOURS / 7 DAYS A WEEK </h5>
-        <h5>ADDRESS: 148 BLEECKER STREET #2G BROOKLYN, NY 11221</h5>
+        <h5>ADDRESS: 148 BLEECKER STREET BROOKLYN, NY 11221</h5>
       </div>
 
 
