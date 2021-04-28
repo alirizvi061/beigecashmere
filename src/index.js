@@ -8,6 +8,7 @@ import HttpsRedirect from 'react-https-redirect';
 ReactDOM.render(
   <React.StrictMode>
     <HttpsRedirect>
+    <meta name="google-site-verification" content="VqFr46edt_eZSPXvJ1mc3evjaDcwEXaf3PT36yylTtE" />
     <App />
     </HttpsRedirect>
   </React.StrictMode>,
