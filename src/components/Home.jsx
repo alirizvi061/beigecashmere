@@ -9,6 +9,9 @@ class Home extends Component {
 
     return (
       <div className="homePage">
+        <head>
+          <meta name="google-site-verification" content="VqFr46edt_eZSPXvJ1mc3evjaDcwEXaf3PT36yylTtE" />
+        </head>
         <img src="BCLogo.png" alt='Beige Cashmere Logo' className="homeLogo" />
         <CompanyVideo />
         <h1 className="introText">
