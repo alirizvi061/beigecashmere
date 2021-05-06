@@ -50,10 +50,6 @@ export default function Form() {
     }
 
   }
-  if (messageSent) {
-
-
-  }
 
   function thankYouModalFunction() {
     setMessageSent(true)
@@ -73,9 +69,12 @@ export default function Form() {
   return (
     <div id="formScroll" className="form-div">
 
-      <div id="thankYouModal" class="thankYouModalClass">
-        <h1>Thank you, our team will be with you shortly!</h1>
-      </div>
+      <span id="thankYouModal">
+        <div class="thankYouModalClass">
+          <h1>Thank you, our team will be with you shortly!</h1>
+        </div>
+      </span>
+
 
       <div className='form'>
         <h2>REQUEST A FREE QUOTE</h2>

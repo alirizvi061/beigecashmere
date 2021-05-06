@@ -249,13 +249,26 @@ h1 {
   position: fixed;
   z-index: 16;
   padding: 2vw;
-  left: 30vw;
-  top: 21vw;
-  width: 40vw;
+  margin:0;
+  top:0;
+  left:0;
+  width: auto;
   overflow: hidden;
   background-color: #E1C494;
   color: black;
   border-radius: 4vw;
+  opacity: 100%;
+}
+#thankYouModal{
+  background-color: rgba(0,0,0,.90) !important;
+  position:fixed;
+  padding:0;
+  margin:0;
+  z-index: 16;
+  top:0;
+  left:0;
+  width: 100%;
+  height: 100%;
 }
 
 /* SMALL PHONE SIZE */
@@ -263,7 +276,7 @@ h1 {
 and (min-device-width : 320px) {
   /* Styles */
   .thankYouModalClass{
-    width: 60vw;
+    width: auto;
     top: 50vw;
     left: 20vw;
     margin: 0;
@@ -273,9 +286,10 @@ and (min-device-width : 320px) {
 /* IPHONE SIZE */
 @media only screen and (min-device-width : 500px) {
   .thankYouModalClass{
-    width: 60vw;
+    width: auto;
     top: 17vw;
-    left: 20vw;
+    left: 32vw;
+    right: 32vw;
     margin: 0;
   }
 }
